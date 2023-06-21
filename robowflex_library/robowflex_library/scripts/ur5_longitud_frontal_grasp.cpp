@@ -45,15 +45,9 @@ int main(int argc, char **argv)
         auto second = trayectoria->getWayPoint(index);
         auto pos1 = first.getFrameTransform(END_EFFECTOR).translation();
         auto pos2 = second.getFrameTransform(END_EFFECTOR).translation();
-
-        double& x1 = pos1[0];
-        double& x2 = pos2[0];
-        double& y1 = pos1[1];
-        double& y2 = pos2[1];
-        double& z1 = pos1[2];
-        double& z2 = pos2[2];
-        
-        trajectory_length += sqrt(pow(x1-x2,2) + pow(y1-y2,2) + pow(z1-z2,2));
+        auto diferencia = pos2 - pos1;
+        auto norma = diferencia.norm();
+        trajectory_length += norma;
     }
     std::cout << "Workspace Length: "<< trajectory_length << "m" << std::endl;
 
