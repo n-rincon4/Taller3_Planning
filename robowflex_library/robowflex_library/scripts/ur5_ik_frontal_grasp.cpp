@@ -44,6 +44,19 @@ int main(int argc, char **argv)
     scene->fromYAMLFile(SCENE_FILE);
     scene->getCurrentState() = *ur5->getScratchState();
 
+    // Move the robot down.
+    auto robot_offset = TF::createPoseQ(Eigen::Vector3d{0.0, 0.0, 0.15}, Eigen::Quaterniond{1, 0, 0, 0});
+    scene->moveAllObjectsGlobal(robot_offset);
+
+    // Define goal 
+    auto object_pose = scene->getObjectPose(OBJECT);
+    auto grasp_offset = TF::createPoseQ(Eigen::Vector3d{-0.2, -0.2, 0.02}, Eigen::Quaterniond{0.0, 0.707, 0.707, 0.0});
+    RobotPose pose;
+    pose = TF::identity();
+    pose.translate(object_pose.translation());
+    pose.translate(grasp_offset.translation());
+    pose.rotate(grasp_offset.linear());
+
     // Create the trajectory object to be read
     auto loaded_trajectory = std::make_shared<Trajectory> (ur5, GROUP);
     // Extract the RobotTrajectory object 
@@ -69,11 +82,9 @@ int main(int argc, char **argv)
             RBX_ERROR("IK solution not found");
             return 0;
         }
-
-
         auto state = *ur5->getScratchState();
         std::cout << "State: " << state << std::endl;
-        trajectory->addSuffixWaypoint(state,0);
+        trajectory->addSuffixWaypoint(state,0.05);
         
     }
     // Visualize the scene in RViz.
