@@ -1,0 +1,912 @@
+MoveIt! version 65804
+Experiment unfurl
+Running on ML003
+Starting at 2023-Jun-23 13:47:58.866491
+<<<|
+|>>>
+0 is the random seed
+30 seconds per run
+-1 MB per run
+1.58049 seconds spent to collect the data
+0 enum types
+4 planners
+rrtconnect
+0 common properties
+20 properties for each run
+time REAL
+success BOOLEAN
+correct BOOLEAN
+length REAL
+machine_hostname VARCHAR(128)
+machine_process_id BIGINT
+machine_thread_id BIGINT
+query_finish_time REAL
+query_index INT
+query_start_time REAL
+query_timeout_trial INT
+query_trial INT
+request_group_name VARCHAR(128)
+request_num_planning_attempts INT
+request_planner_id VARCHAR(128)
+request_planner_type VARCHAR(128)
+robowflex_planner_name VARCHAR(128)
+robowflex_robot_name VARCHAR(128)
+smoothness REAL
+waypoints INT
+200 runs
+0.00725; 0; 0; 0; ML003; 17722; 140548090627840; 0.0074440000000000001; 0; 0.000194; 0; 1; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007405; 0; 0; 0; ML003; 17722; 140548099020544; 0.0076179999999999998; 0; 0.000213; 0; 0; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007453; 0; 0; 0; ML003; 17722; 140548082235136; 0.0076959999999999997; 0; 0.000243; 0; 2; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007571; 0; 0; 0; ML003; 17722; 140548073842432; 0.0078510000000000003; 0; 0.00027999999999999998; 0; 3; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006786; 0; 0; 0; ML003; 17722; 140548099020544; 0.014504; 0; 0.007718; 0; 5; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006767; 0; 0; 0; ML003; 17722; 140548082235136; 0.014536; 0; 0.0077689999999999999; 0; 6; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007281; 0; 0; 0; ML003; 17722; 140548090627840; 0.014799; 0; 0.0075180000000000004; 0; 4; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006926; 0; 0; 0; ML003; 17722; 140548073842432; 0.01489; 0; 0.0079640000000000006; 0; 7; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006782; 0; 0; 0; ML003; 17722; 140548099020544; 0.021350000000000001; 0; 0.014567999999999999; 0; 8; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006904; 0; 0; 0; ML003; 17722; 140548082235136; 0.021520999999999998; 0; 0.014617; 0; 9; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006677; 0; 0; 0; ML003; 17722; 140548073842432; 0.021644; 0; 0.014966999999999999; 0; 11; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007079; 0; 0; 0; ML003; 17722; 140548090627840; 0.021925; 0; 0.014846; 0; 10; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007003; 0; 0; 0; ML003; 17722; 140548099020544; 0.028403999999999999; 0; 0.021401; 0; 12; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008803; 0; 0; 0; ML003; 17722; 140548082235136; 0.030391000000000001; 0; 0.021588; 0; 13; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01159; 0; 0; 0; ML003; 17722; 140548090627840; 0.033584000000000003; 0; 0.021994; 0; 15; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.012192; 0; 0; 0; ML003; 17722; 140548073842432; 0.033960999999999998; 0; 0.021769; 0; 14; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007323; 0; 0; 0; ML003; 17722; 140548099020544; 0.035806999999999999; 0; 0.028483999999999999; 0; 16; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007145; 0; 0; 0; ML003; 17722; 140548082235136; 0.037634000000000001; 0; 0.030488999999999999; 0; 17; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006705; 0; 0; 0; ML003; 17722; 140548099020544; 0.042618999999999997; 0; 0.035914000000000001; 0; 20; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006761; 0; 0; 0; ML003; 17722; 140548082235136; 0.044476000000000002; 0; 0.037714999999999999; 0; 21; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011608; 0; 0; 0; ML003; 17722; 140548090627840; 0.045305999999999999; 0; 0.033697999999999999; 0; 18; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011927; 0; 0; 0; ML003; 17722; 140548073842432; 0.045960000000000001; 0; 0.034033000000000001; 0; 19; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007099; 0; 0; 0; ML003; 17722; 140548099020544; 0.049782; 0; 0.042682999999999999; 0; 22; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006652; 0; 0; 0; ML003; 17722; 140548082235136; 0.051255000000000002; 0; 0.044602999999999997; 0; 23; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006477; 0; 0; 0; ML003; 17722; 140548099020544; 0.056334000000000002; 0; 0.049856999999999999; 0; 26; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011345; 0; 0; 0; ML003; 17722; 140548090627840; 0.056723000000000003; 0; 0.045378000000000002; 0; 24; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01139; 0; 0; 0; ML003; 17722; 140548073842432; 0.057423000000000002; 0; 0.046032999999999998; 0; 25; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007459; 0; 0; 0; ML003; 17722; 140548082235136; 0.058761000000000001; 0; 0.051302; 0; 27; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007599; 0; 0; 0; ML003; 17722; 140548099020544; 0.063989000000000004; 0; 0.056390000000000003; 0; 28; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006996; 0; 0; 0; ML003; 17722; 140548082235136; 0.065813999999999998; 0; 0.058818000000000002; 0; 31; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011236; 0; 0; 0; ML003; 17722; 140548090627840; 0.068056000000000005; 0; 0.056820000000000002; 0; 29; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.012068; 0; 0; 0; ML003; 17722; 140548073842432; 0.069563; 0; 0.057494999999999997; 0; 30; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006887; 0; 0; 0; ML003; 17722; 140548099020544; 0.070966000000000001; 0; 0.064078999999999997; 0; 32; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006755; 0; 0; 0; ML003; 17722; 140548082235136; 0.072663000000000005; 0; 0.065907999999999994; 0; 33; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00641; 0; 0; 0; ML003; 17722; 140548099020544; 0.077454999999999996; 0; 0.071044999999999997; 0; 36; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011517; 0; 0; 0; ML003; 17722; 140548090627840; 0.079671000000000006; 0; 0.068154000000000006; 0; 34; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007013; 0; 0; 0; ML003; 17722; 140548082235136; 0.079732999999999998; 0; 0.072720000000000007; 0; 37; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011351; 0; 0; 0; ML003; 17722; 140548073842432; 0.081013000000000002; 0; 0.069662000000000002; 0; 35; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006554; 0; 0; 0; ML003; 17722; 140548099020544; 0.084062999999999999; 0; 0.077508999999999995; 0; 38; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006845; 0; 0; 0; ML003; 17722; 140548082235136; 0.086687; 0; 0.079841999999999996; 0; 40; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00663; 0; 0; 0; ML003; 17722; 140548099020544; 0.090761999999999995; 0; 0.084131999999999998; 0; 42; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011776; 0; 0; 0; ML003; 17722; 140548090627840; 0.091559000000000001; 0; 0.079783000000000007; 0; 39; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011634; 0; 0; 0; ML003; 17722; 140548073842432; 0.092718999999999996; 0; 0.081085000000000004; 0; 41; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008583; 0; 0; 0; ML003; 17722; 140548082235136; 0.095357999999999998; 0; 0.086775000000000005; 0; 43; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006923; 0; 0; 0; ML003; 17722; 140548099020544; 0.097757999999999998; 0; 0.090834999999999999; 0; 44; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006627; 0; 0; 0; ML003; 17722; 140548082235136; 0.10204100000000001; 0; 0.095413999999999999; 0; 47; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0119; 0; 0; 0; ML003; 17722; 140548090627840; 0.103532; 0; 0.091632000000000005; 0; 45; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01156; 0; 0; 0; ML003; 17722; 140548073842432; 0.104376; 0; 0.092815999999999996; 0; 46; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00678; 0; 0; 0; ML003; 17722; 140548099020544; 0.10459300000000001; 0; 0.097812999999999997; 0; 48; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006651; 0; 0; 0; ML003; 17722; 140548082235136; 0.108749; 0; 0.10209799999999999; 0; 49; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006577; 0; 0; 0; ML003; 17722; 140548099020544; 0.111235; 0; 0.104658; 0; 52; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011501; 0; 0; 0; ML003; 17722; 140548090627840; 0.115134; 0; 0.103633; 0; 50; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006818; 0; 0; 0; ML003; 17722; 140548082235136; 0.11562699999999999; 0; 0.108809; 0; 53; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011196; 0; 0; 0; ML003; 17722; 140548073842432; 0.115671; 0; 0.104475; 0; 51; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006743; 0; 0; 0; ML003; 17722; 140548099020544; 0.118036; 0; 0.111293; 0; 54; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006816; 0; 0; 0; ML003; 17722; 140548082235136; 0.12253699999999999; 0; 0.115721; 0; 56; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006811; 0; 0; 0; ML003; 17722; 140548099020544; 0.12490800000000001; 0; 0.11809699999999999; 0; 58; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011359; 0; 0; 0; ML003; 17722; 140548090627840; 0.126581; 0; 0.115222; 0; 55; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011286; 0; 0; 0; ML003; 17722; 140548073842432; 0.12707499999999999; 0; 0.115789; 0; 57; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007616; 0; 0; 0; ML003; 17722; 140548082235136; 0.13022600000000001; 0; 0.12261; 0; 59; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006827; 0; 0; 0; ML003; 17722; 140548099020544; 0.131823; 0; 0.124996; 0; 60; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006675; 0; 0; 0; ML003; 17722; 140548082235136; 0.136963; 0; 0.13028799999999999; 0; 63; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011445; 0; 0; 0; ML003; 17722; 140548090627840; 0.138127; 0; 0.12668199999999999; 0; 61; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006486; 0; 0; 0; ML003; 17722; 140548099020544; 0.13836200000000001; 0; 0.13187599999999999; 0; 64; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011487; 0; 0; 0; ML003; 17722; 140548073842432; 0.138659; 0; 0.12717200000000001; 0; 62; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00678; 0; 0; 0; ML003; 17722; 140548082235136; 0.14380200000000001; 0; 0.137022; 0; 65; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006653; 0; 0; 0; ML003; 17722; 140548099020544; 0.14508099999999999; 0; 0.138428; 0; 67; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011306; 0; 0; 0; ML003; 17722; 140548090627840; 0.149505; 0; 0.13819899999999999; 0; 66; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011405; 0; 0; 0; ML003; 17722; 140548073842432; 0.15013599999999999; 0; 0.13873099999999999; 0; 68; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007198; 0; 0; 0; ML003; 17722; 140548082235136; 0.151057; 0; 0.14385899999999999; 0; 69; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007279; 0; 0; 0; ML003; 17722; 140548099020544; 0.15240999999999999; 0; 0.14513100000000001; 0; 70; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007918; 0; 0; 0; ML003; 17722; 140548082235136; 0.159056; 0; 0.15113799999999999; 0; 73; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00689; 0; 0; 0; ML003; 17722; 140548099020544; 0.159361; 0; 0.152471; 0; 74; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01152; 0; 0; 0; ML003; 17722; 140548090627840; 0.16112499999999999; 0; 0.14960499999999999; 0; 71; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011335; 0; 0; 0; ML003; 17722; 140548073842432; 0.16156899999999999; 0; 0.15023400000000001; 0; 72; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00686; 0; 0; 0; ML003; 17722; 140548082235136; 0.16600999999999999; 0; 0.15915000000000001; 0; 75; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006824; 0; 0; 0; ML003; 17722; 140548099020544; 0.16623299999999999; 0; 0.159409; 0; 76; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006707; 0; 0; 0; ML003; 17722; 140548082235136; 0.172795; 0; 0.16608800000000001; 0; 79; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011831; 0; 0; 0; ML003; 17722; 140548090627840; 0.173036; 0; 0.16120499999999999; 0; 77; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006731; 0; 0; 0; ML003; 17722; 140548099020544; 0.17306299999999999; 0; 0.16633200000000001; 0; 80; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011745; 0; 0; 0; ML003; 17722; 140548073842432; 0.17338600000000001; 0; 0.16164100000000001; 0; 78; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006625; 0; 0; 0; ML003; 17722; 140548082235136; 0.17949799999999999; 0; 0.172873; 0; 81; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006717; 0; 0; 0; ML003; 17722; 140548099020544; 0.17990300000000001; 0; 0.17318600000000001; 0; 83; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01162; 0; 0; 0; ML003; 17722; 140548090627840; 0.18476000000000001; 0; 0.17313999999999999; 0; 82; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011338; 0; 0; 0; ML003; 17722; 140548073842432; 0.18479400000000001; 0; 0.173456; 0; 84; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006897; 0; 0; 0; ML003; 17722; 140548099020544; 0.18690599999999999; 0; 0.180009; 0; 86; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008062; 0; 0; 0; ML003; 17722; 140548082235136; 0.18764; 0; 0.17957799999999999; 0; 85; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00679; 0; 0; 0; ML003; 17722; 140548099020544; 0.193801; 0; 0.18701100000000001; 0; 89; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006578; 0; 0; 0; ML003; 17722; 140548082235136; 0.194267; 0; 0.18768899999999999; 0; 90; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011392; 0; 0; 0; ML003; 17722; 140548073842432; 0.19628599999999999; 0; 0.184894; 0; 88; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011471; 0; 0; 0; ML003; 17722; 140548090627840; 0.19633700000000001; 0; 0.184866; 0; 87; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007105; 0; 0; 0; ML003; 17722; 140548099020544; 0.200985; 0; 0.19388; 0; 91; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006816; 0; 0; 0; ML003; 17722; 140548082235136; 0.20113200000000001; 0; 0.19431599999999999; 0; 92; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011059; 0; 0; 0; ML003; 17722; 140548073842432; 0.20746600000000001; 0; 0.196407; 0; 93; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006573; 0; 0; 0; ML003; 17722; 140548099020544; 0.20760799999999999; 0; 0.20103499999999999; 0; 95; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006782; 0; 0; 0; ML003; 17722; 140548082235136; 0.20796500000000001; 0; 0.201183; 0; 96; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011721; 0; 0; 0; ML003; 17722; 140548090627840; 0.20815; 0; 0.19642899999999999; 0; 94; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006407; 0; 0; 0; ML003; 17722; 140548099020544; 0.21412300000000001; 0; 0.20771600000000001; 0; 98; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006713; 0; 0; 0; ML003; 17722; 140548082235136; 0.214728; 0; 0.20801500000000001; 0; 99; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011469; 0; 0; 0; ML003; 17722; 140548073842432; 0.219026; 0; 0.20755699999999999; 0; 97; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01146; 0; 0; 0; ML003; 17722; 140548090627840; 0.21967999999999999; 1; 0.20821999999999999; 0; 0; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006929; 0; 0; 0; ML003; 17722; 140548099020544; 0.22111500000000001; 1; 0.21418599999999999; 0; 1; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007849; 0; 0; 0; ML003; 17722; 140548082235136; 0.22262699999999999; 1; 0.214778; 0; 2; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006695; 0; 0; 0; ML003; 17722; 140548099020544; 0.22789899999999999; 1; 0.22120400000000001; 0; 5; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007345; 0; 0; 0; ML003; 17722; 140548082235136; 0.230049; 1; 0.22270400000000001; 0; 6; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011621; 0; 0; 0; ML003; 17722; 140548073842432; 0.230743; 1; 0.21912200000000001; 0; 3; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011552; 0; 0; 0; ML003; 17722; 140548090627840; 0.231327; 1; 0.219775; 0; 4; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00672; 0; 0; 0; ML003; 17722; 140548099020544; 0.23468; 1; 0.22796; 0; 7; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006722; 0; 0; 0; ML003; 17722; 140548082235136; 0.236847; 1; 0.230125; 0; 8; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006824; 0; 0; 0; ML003; 17722; 140548099020544; 0.241589; 1; 0.234765; 0; 11; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011053; 0; 0; 0; ML003; 17722; 140548073842432; 0.241897; 1; 0.23084399999999999; 0; 9; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011577; 0; 0; 0; ML003; 17722; 140548090627840; 0.24297199999999999; 1; 0.23139499999999999; 0; 10; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006742; 0; 0; 0; ML003; 17722; 140548082235136; 0.243643; 1; 0.236901; 0; 12; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00708; 0; 0; 0; ML003; 17722; 140548099020544; 0.248721; 1; 0.24164099999999999; 0; 13; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007838; 0; 0; 0; ML003; 17722; 140548082235136; 0.25155300000000003; 1; 0.24371499999999999; 0; 16; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011505; 0; 0; 0; ML003; 17722; 140548073842432; 0.25348500000000002; 1; 0.24198; 0; 14; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01154; 0; 0; 0; ML003; 17722; 140548090627840; 0.25459999999999999; 1; 0.24306; 0; 15; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0068; 0; 0; 0; ML003; 17722; 140548099020544; 0.25558500000000001; 1; 0.24878500000000001; 0; 17; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007125; 0; 0; 0; ML003; 17722; 140548082235136; 0.258768; 1; 0.25164300000000001; 0; 18; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006681; 0; 0; 0; ML003; 17722; 140548099020544; 0.26231300000000002; 1; 0.25563200000000003; 0; 21; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.010771; 0; 0; 0; ML003; 17722; 140548073842432; 0.26433699999999999; 1; 0.25356600000000001; 0; 19; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006577; 0; 0; 0; ML003; 17722; 140548082235136; 0.26539299999999999; 1; 0.25881599999999999; 0; 22; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011296; 0; 0; 0; ML003; 17722; 140548090627840; 0.26599299999999998; 1; 0.25469700000000001; 0; 20; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006671; 0; 0; 0; ML003; 17722; 140548099020544; 0.26905499999999999; 1; 0.26238400000000001; 0; 23; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006723; 0; 0; 0; ML003; 17722; 140548082235136; 0.27216000000000001; 1; 0.26543699999999998; 0; 25; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011311; 0; 0; 0; ML003; 17722; 140548073842432; 0.27571899999999999; 1; 0.26440799999999998; 0; 24; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006857; 0; 0; 0; ML003; 17722; 140548099020544; 0.27602399999999999; 1; 0.26916699999999999; 0; 27; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011725; 0; 0; 0; ML003; 17722; 140548090627840; 0.27778999999999998; 1; 0.266065; 0; 26; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006521; 0; 0; 0; ML003; 17722; 140548082235136; 0.27873100000000001; 1; 0.27221000000000001; 0; 28; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008041; 0; 0; 0; ML003; 17722; 140548099020544; 0.28415000000000001; 1; 0.27610899999999999; 0; 30; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007069; 0; 0; 0; ML003; 17722; 140548082235136; 0.28585500000000003; 1; 0.27878599999999998; 0; 32; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011555; 0; 0; 0; ML003; 17722; 140548073842432; 0.28736299999999998; 1; 0.275808; 0; 29; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01183; 0; 0; 0; ML003; 17722; 140548090627840; 0.28971000000000002; 1; 0.27788000000000002; 0; 31; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006813; 0; 0; 0; ML003; 17722; 140548099020544; 0.291047; 1; 0.28423399999999999; 0; 33; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006765; 0; 0; 0; ML003; 17722; 140548082235136; 0.292711; 1; 0.28594599999999998; 0; 34; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00665; 0; 0; 0; ML003; 17722; 140548099020544; 0.29777999999999999; 1; 0.29113; 0; 37; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011057; 0; 0; 0; ML003; 17722; 140548073842432; 0.29852200000000001; 1; 0.28746500000000003; 0; 35; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00678; 0; 0; 0; ML003; 17722; 140548082235136; 0.29954199999999997; 1; 0.29276200000000002; 0; 38; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0099; 0; 0; 0; ML003; 17722; 140548090627840; 0.29968299999999998; 1; 0.28978300000000001; 0; 36; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006682; 0; 0; 0; ML003; 17722; 140548099020544; 0.30453200000000002; 1; 0.29785; 0; 39; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006567; 0; 0; 0; ML003; 17722; 140548073842432; 0.305143; 1; 0.29857600000000001; 0; 40; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006598; 0; 0; 0; ML003; 17722; 140548082235136; 0.30619400000000002; 1; 0.29959599999999997; 0; 41; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006719; 0; 0; 0; ML003; 17722; 140548090627840; 0.306448; 1; 0.29972900000000002; 0; 42; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006879; 0; 0; 0; ML003; 17722; 140548099020544; 0.31147900000000001; 1; 0.30459999999999998; 0; 43; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006802; 0; 0; 0; ML003; 17722; 140548073842432; 0.31199399999999999; 1; 0.30519200000000002; 0; 44; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007352; 0; 0; 0; ML003; 17722; 140548082235136; 0.31359999999999999; 1; 0.30624800000000002; 0; 45; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007339; 0; 0; 0; ML003; 17722; 140548090627840; 0.31384299999999998; 1; 0.306504; 0; 46; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007007; 0; 0; 0; ML003; 17722; 140548073842432; 0.31906000000000001; 1; 0.31205300000000002; 0; 48; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00762; 0; 0; 0; ML003; 17722; 140548099020544; 0.31917000000000001; 1; 0.31154999999999999; 0; 47; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006964; 0; 0; 0; ML003; 17722; 140548082235136; 0.32064700000000002; 1; 0.31368299999999999; 0; 49; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007076; 0; 0; 0; ML003; 17722; 140548090627840; 0.32096799999999998; 1; 0.313892; 0; 50; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006934; 0; 0; 0; ML003; 17722; 140548073842432; 0.32606299999999999; 1; 0.319129; 0; 51; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007033; 0; 0; 0; ML003; 17722; 140548099020544; 0.32631700000000002; 1; 0.31928400000000001; 0; 52; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006573; 0; 0; 0; ML003; 17722; 140548082235136; 0.327268; 1; 0.32069500000000001; 0; 53; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006785; 0; 0; 0; ML003; 17722; 140548090627840; 0.32780799999999999; 1; 0.321023; 0; 54; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006605; 0; 0; 0; ML003; 17722; 140548099020544; 0.33299000000000001; 1; 0.32638499999999998; 0; 56; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007543; 0; 0; 0; ML003; 17722; 140548073842432; 0.33366600000000002; 1; 0.326123; 0; 55; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00673; 0; 0; 0; ML003; 17722; 140548082235136; 0.33404200000000001; 1; 0.32731199999999999; 0; 57; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007113; 0; 0; 0; ML003; 17722; 140548090627840; 0.33499299999999999; 1; 0.32788; 0; 58; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006667; 0; 0; 0; ML003; 17722; 140548099020544; 0.33972000000000002; 1; 0.33305299999999999; 0; 59; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006788; 0; 0; 0; ML003; 17722; 140548073842432; 0.340505; 1; 0.33371699999999999; 0; 60; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006598; 0; 0; 0; ML003; 17722; 140548082235136; 0.34068500000000002; 1; 0.33408700000000002; 0; 61; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006909; 0; 0; 0; ML003; 17722; 140548090627840; 0.34197100000000002; 1; 0.33506200000000003; 0; 62; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006737; 0; 0; 0; ML003; 17722; 140548099020544; 0.34651100000000001; 1; 0.33977400000000002; 0; 63; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006937; 0; 0; 0; ML003; 17722; 140548082235136; 0.34767199999999998; 1; 0.34073500000000001; 0; 65; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008003; 0; 0; 0; ML003; 17722; 140548073842432; 0.34855599999999998; 1; 0.34055299999999999; 0; 64; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008073; 0; 0; 0; ML003; 17722; 140548090627840; 0.35011399999999998; 1; 0.34204099999999998; 0; 66; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007665; 0; 0; 0; ML003; 17722; 140548099020544; 0.35423700000000002; 1; 0.34657199999999999; 0; 67; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006795; 0; 0; 0; ML003; 17722; 140548082235136; 0.35452099999999998; 1; 0.34772599999999998; 0; 68; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007027; 0; 0; 0; ML003; 17722; 140548073842432; 0.35564899999999999; 1; 0.34862199999999999; 0; 69; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006669; 0; 0; 0; ML003; 17722; 140548090627840; 0.35684300000000002; 1; 0.35017399999999999; 0; 70; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006892; 0; 0; 0; ML003; 17722; 140548099020544; 0.36119200000000001; 1; 0.3543; 0; 71; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006976; 0; 0; 0; ML003; 17722; 140548082235136; 0.36154599999999998; 1; 0.35457; 0; 72; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007139; 0; 0; 0; ML003; 17722; 140548073842432; 0.36286000000000002; 1; 0.35572100000000001; 0; 73; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006531; 0; 0; 0; ML003; 17722; 140548090627840; 0.36342400000000002; 1; 0.35689300000000002; 0; 74; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00684; 0; 0; 0; ML003; 17722; 140548099020544; 0.36808999999999997; 1; 0.36125000000000002; 0; 75; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00688; 0; 0; 0; ML003; 17722; 140548082235136; 0.36847299999999999; 1; 0.361593; 0; 76; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006755; 0; 0; 0; ML003; 17722; 140548073842432; 0.36968499999999999; 1; 0.36292999999999997; 0; 77; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00673; 0; 0; 0; ML003; 17722; 140548090627840; 0.370203; 1; 0.36347299999999999; 0; 78; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006686; 0; 0; 0; ML003; 17722; 140548099020544; 0.374832; 1; 0.36814599999999997; 0; 79; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006754; 0; 0; 0; ML003; 17722; 140548082235136; 0.37527100000000002; 1; 0.36851699999999998; 0; 80; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006511; 0; 0; 0; ML003; 17722; 140548090627840; 0.37676199999999999; 1; 0.370251; 0; 82; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007094; 0; 0; 0; ML003; 17722; 140548073842432; 0.37684699999999999; 1; 0.369753; 0; 81; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007166; 0; 0; 0; ML003; 17722; 140548099020544; 0.38205299999999998; 1; 0.37488700000000003; 0; 83; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007981; 0; 0; 0; ML003; 17722; 140548082235136; 0.383295; 1; 0.37531399999999998; 0; 84; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007469; 0; 0; 0; ML003; 17722; 140548090627840; 0.38428200000000001; 1; 0.37681300000000001; 0; 85; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007821; 0; 0; 0; ML003; 17722; 140548073842432; 0.38476100000000002; 1; 0.37694; 0; 86; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006839; 0; 0; 0; ML003; 17722; 140548099020544; 0.38897300000000001; 1; 0.38213399999999997; 0; 87; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006633; 0; 0; 0; ML003; 17722; 140548082235136; 0.38997999999999999; 1; 0.38334699999999999; 0; 88; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006863; 0; 0; 0; ML003; 17722; 140548090627840; 0.39120300000000002; 1; 0.38434000000000001; 0; 89; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006562; 0; 0; 0; ML003; 17722; 140548073842432; 0.39138000000000001; 1; 0.38481799999999999; 0; 90; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007603; 0; 0; 0; ML003; 17722; 140548099020544; 0.396652; 1; 0.38904899999999998; 0; 91; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006845; 0; 0; 0; ML003; 17722; 140548082235136; 0.39687600000000001; 1; 0.39003100000000002; 0; 92; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006713; 0; 0; 0; ML003; 17722; 140548090627840; 0.39798800000000001; 1; 0.39127499999999998; 0; 93; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00676; 0; 0; 0; ML003; 17722; 140548073842432; 0.39820499999999998; 1; 0.39144499999999999; 0; 94; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00658; 0; 0; 0; ML003; 17722; 140548082235136; 0.40350000000000003; 1; 0.39692; 0; 96; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006917; 0; 0; 0; ML003; 17722; 140548099020544; 0.40362999999999999; 1; 0.39671299999999998; 0; 95; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006672; 0; 0; 0; ML003; 17722; 140548090627840; 0.40472799999999998; 1; 0.39805600000000002; 0; 97; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006741; 0; 0; 0; ML003; 17722; 140548073842432; 0.40499499999999999; 1; 0.398254; 0; 98; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006904; 0; 0; 0; ML003; 17722; 140548082235136; 0.41044999999999998; 1; 0.40354600000000002; 0; 99; manipulator; 1; RRTConnectkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+.
+rrt
+0 common properties
+20 properties for each run
+time REAL
+success BOOLEAN
+correct BOOLEAN
+length REAL
+machine_hostname VARCHAR(128)
+machine_process_id BIGINT
+machine_thread_id BIGINT
+query_finish_time REAL
+query_index INT
+query_start_time REAL
+query_timeout_trial INT
+query_trial INT
+request_group_name VARCHAR(128)
+request_num_planning_attempts INT
+request_planner_id VARCHAR(128)
+request_planner_type VARCHAR(128)
+robowflex_planner_name VARCHAR(128)
+robowflex_robot_name VARCHAR(128)
+smoothness REAL
+waypoints INT
+200 runs
+0.006892; 0; 0; 0; ML003; 17722; 140548099020544; 0.410584; 2; 0.403692; 0; 0; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008099; 0; 0; 0; ML003; 17722; 140548090627840; 0.41289700000000001; 2; 0.40479799999999999; 0; 1; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008087; 0; 0; 0; ML003; 17722; 140548073842432; 0.41312599999999999; 2; 0.40503899999999998; 0; 2; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00675; 0; 0; 0; ML003; 17722; 140548082235136; 0.41727999999999998; 2; 0.41053000000000001; 0; 3; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007275; 0; 0; 0; ML003; 17722; 140548099020544; 0.41796299999999997; 2; 0.410688; 0; 4; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006554; 0; 0; 0; ML003; 17722; 140548090627840; 0.41952699999999998; 2; 0.41297299999999998; 0; 5; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006541; 0; 0; 0; ML003; 17722; 140548073842432; 0.41971700000000001; 2; 0.41317599999999999; 0; 6; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007006; 0; 0; 0; ML003; 17722; 140548082235136; 0.42433700000000002; 2; 0.41733100000000001; 0; 7; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006799; 0; 0; 0; ML003; 17722; 140548099020544; 0.42482999999999999; 2; 0.41803099999999999; 0; 8; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00683; 0; 0; 0; ML003; 17722; 140548073842432; 0.42659900000000001; 2; 0.419769; 0; 10; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007279; 0; 0; 0; ML003; 17722; 140548090627840; 0.42687799999999998; 2; 0.419599; 0; 9; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006819; 0; 0; 0; ML003; 17722; 140548099020544; 0.43170399999999998; 2; 0.42488500000000001; 0; 12; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007428; 0; 0; 0; ML003; 17722; 140548073842432; 0.43408000000000002; 2; 0.42665199999999998; 0; 13; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.010596; 0; 0; 0; ML003; 17722; 140548082235136; 0.43499100000000002; 2; 0.42439500000000002; 0; 11; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011395; 0; 0; 0; ML003; 17722; 140548090627840; 0.43834600000000001; 2; 0.42695100000000002; 0; 14; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006672; 0; 0; 0; ML003; 17722; 140548099020544; 0.43843700000000002; 2; 0.43176500000000001; 0; 15; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007309; 0; 0; 0; ML003; 17722; 140548073842432; 0.441444; 2; 0.43413499999999999; 0; 16; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007584; 0; 0; 0; ML003; 17722; 140548099020544; 0.446075; 2; 0.43849100000000002; 0; 19; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01217; 0; 0; 0; ML003; 17722; 140548082235136; 0.44723099999999999; 2; 0.43506099999999998; 0; 17; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007529; 0; 0; 0; ML003; 17722; 140548073842432; 0.44905299999999998; 2; 0.44152400000000003; 0; 20; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011923; 0; 0; 0; ML003; 17722; 140548090627840; 0.45034099999999999; 2; 0.43841799999999997; 0; 18; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007454; 0; 0; 0; ML003; 17722; 140548099020544; 0.45361499999999999; 2; 0.44616099999999997; 0; 21; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006741; 0; 0; 0; ML003; 17722; 140548073842432; 0.45589600000000002; 2; 0.44915500000000003; 0; 23; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011904; 0; 0; 0; ML003; 17722; 140548082235136; 0.45922099999999999; 2; 0.44731700000000002; 0; 22; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006807; 0; 0; 0; ML003; 17722; 140548099020544; 0.46048499999999998; 2; 0.45367800000000003; 0; 25; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011318; 0; 0; 0; ML003; 17722; 140548090627840; 0.46176; 2; 0.45044200000000001; 0; 24; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006767; 0; 0; 0; ML003; 17722; 140548073842432; 0.46274999999999999; 2; 0.45598300000000003; 0; 26; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006585; 0; 0; 0; ML003; 17722; 140548099020544; 0.467115; 2; 0.46052999999999999; 0; 28; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006606; 0; 0; 0; ML003; 17722; 140548073842432; 0.46941100000000002; 2; 0.46280500000000002; 0; 30; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011368; 0; 0; 0; ML003; 17722; 140548082235136; 0.47069299999999997; 2; 0.45932499999999998; 0; 27; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011662; 0; 0; 0; ML003; 17722; 140548090627840; 0.47350500000000001; 2; 0.461843; 0; 29; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006621; 0; 0; 0; ML003; 17722; 140548099020544; 0.47379100000000002; 2; 0.46716999999999997; 0; 31; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007584; 0; 0; 0; ML003; 17722; 140548073842432; 0.477076; 2; 0.46949200000000002; 0; 32; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007126; 0; 0; 0; ML003; 17722; 140548099020544; 0.48097000000000001; 2; 0.47384399999999999; 0; 35; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011487; 0; 0; 0; ML003; 17722; 140548082235136; 0.48227599999999998; 2; 0.47078900000000001; 0; 33; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00663; 0; 0; 0; ML003; 17722; 140548073842432; 0.48378500000000002; 2; 0.477155; 0; 36; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011247; 0; 0; 0; ML003; 17722; 140548090627840; 0.48482500000000001; 2; 0.473578; 0; 34; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006784; 0; 0; 0; ML003; 17722; 140548099020544; 0.487815; 2; 0.48103099999999999; 0; 37; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0066; 0; 0; 0; ML003; 17722; 140548073842432; 0.49043199999999998; 2; 0.48383199999999998; 0; 39; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011718; 0; 0; 0; ML003; 17722; 140548082235136; 0.49409599999999998; 2; 0.48237799999999997; 0; 38; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006862; 0; 0; 0; ML003; 17722; 140548099020544; 0.49473400000000001; 2; 0.48787199999999997; 0; 41; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011473; 0; 0; 0; ML003; 17722; 140548090627840; 0.49636999999999998; 2; 0.48489700000000002; 0; 40; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006622; 0; 0; 0; ML003; 17722; 140548073842432; 0.49710500000000002; 2; 0.490483; 0; 42; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006441; 0; 0; 0; ML003; 17722; 140548099020544; 0.50123099999999998; 2; 0.49479000000000001; 0; 44; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006669; 0; 0; 0; ML003; 17722; 140548073842432; 0.50382300000000002; 2; 0.49715399999999998; 0; 46; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011286; 0; 0; 0; ML003; 17722; 140548082235136; 0.50548300000000002; 2; 0.494197; 0; 43; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011418; 0; 0; 0; ML003; 17722; 140548090627840; 0.50788199999999994; 2; 0.49646400000000002; 0; 45; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007648; 0; 0; 0; ML003; 17722; 140548099020544; 0.50895299999999999; 2; 0.501305; 0; 47; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007195; 0; 0; 0; ML003; 17722; 140548073842432; 0.51106700000000005; 2; 0.50387199999999999; 0; 48; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006637; 0; 0; 0; ML003; 17722; 140548099020544; 0.51566699999999999; 2; 0.50902999999999998; 0; 51; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011393; 0; 0; 0; ML003; 17722; 140548082235136; 0.51695199999999997; 2; 0.50555899999999998; 0; 49; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00689; 0; 0; 0; ML003; 17722; 140548073842432; 0.51804300000000003; 2; 0.51115299999999997; 0; 52; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011292; 0; 0; 0; ML003; 17722; 140548090627840; 0.51927400000000001; 2; 0.50798200000000004; 0; 50; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006759; 0; 0; 0; ML003; 17722; 140548099020544; 0.52247299999999997; 2; 0.51571400000000001; 0; 53; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006562; 0; 0; 0; ML003; 17722; 140548073842432; 0.52465700000000004; 2; 0.51809499999999997; 0; 55; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011173; 0; 0; 0; ML003; 17722; 140548082235136; 0.52822800000000003; 2; 0.51705500000000004; 0; 54; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006459; 0; 0; 0; ML003; 17722; 140548099020544; 0.52897499999999997; 2; 0.52251599999999998; 0; 57; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011336; 0; 0; 0; ML003; 17722; 140548090627840; 0.53070600000000001; 2; 0.51937; 0; 56; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006468; 0; 0; 0; ML003; 17722; 140548073842432; 0.53120000000000001; 2; 0.52473199999999998; 0; 58; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006722; 0; 0; 0; ML003; 17722; 140548099020544; 0.53573999999999999; 2; 0.52901799999999999; 0; 60; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006824; 0; 0; 0; ML003; 17722; 140548073842432; 0.53809399999999996; 2; 0.53127000000000002; 0; 62; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011678; 0; 0; 0; ML003; 17722; 140548082235136; 0.53998000000000002; 2; 0.52830200000000005; 0; 59; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011153; 0; 0; 0; ML003; 17722; 140548090627840; 0.54194799999999999; 2; 0.53079500000000002; 0; 61; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006762; 0; 0; 0; ML003; 17722; 140548099020544; 0.54254500000000005; 2; 0.53578300000000001; 0; 63; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00683; 0; 0; 0; ML003; 17722; 140548073842432; 0.54500899999999997; 2; 0.53817899999999996; 0; 64; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006729; 0; 0; 0; ML003; 17722; 140548099020544; 0.54935500000000004; 2; 0.54262600000000005; 0; 67; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01152; 0; 0; 0; ML003; 17722; 140548082235136; 0.55157800000000001; 2; 0.54005800000000004; 0; 65; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007678; 0; 0; 0; ML003; 17722; 140548073842432; 0.55274699999999999; 2; 0.54506900000000003; 0; 68; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011347; 0; 0; 0; ML003; 17722; 140548090627840; 0.55338900000000002; 2; 0.54204200000000002; 0; 66; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006682; 0; 0; 0; ML003; 17722; 140548099020544; 0.55615800000000004; 2; 0.54947599999999996; 0; 69; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006812; 0; 0; 0; ML003; 17722; 140548073842432; 0.55965399999999998; 2; 0.55284199999999994; 0; 71; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006732; 0; 0; 0; ML003; 17722; 140548099020544; 0.562971; 2; 0.55623900000000004; 0; 73; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01205; 0; 0; 0; ML003; 17722; 140548082235136; 0.563747; 2; 0.55169699999999999; 0; 70; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011769; 0; 0; 0; ML003; 17722; 140548090627840; 0.56526500000000002; 2; 0.55349599999999999; 0; 72; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006982; 0; 0; 0; ML003; 17722; 140548073842432; 0.56672500000000003; 2; 0.55974299999999999; 0; 74; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006804; 0; 0; 0; ML003; 17722; 140548099020544; 0.56985399999999997; 2; 0.56305000000000005; 0; 75; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007754; 0; 0; 0; ML003; 17722; 140548073842432; 0.57457400000000003; 2; 0.56681999999999999; 0; 78; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01165; 0; 0; 0; ML003; 17722; 140548082235136; 0.57548999999999995; 2; 0.56384000000000001; 0; 76; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011596; 0; 0; 0; ML003; 17722; 140548090627840; 0.57698700000000003; 2; 0.56539099999999998; 0; 77; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007198; 0; 0; 0; ML003; 17722; 140548099020544; 0.57713400000000004; 2; 0.569936; 0; 79; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007022; 0; 0; 0; ML003; 17722; 140548073842432; 0.581704; 2; 0.57468200000000003; 0; 80; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007167; 0; 0; 0; ML003; 17722; 140548099020544; 0.58440899999999996; 2; 0.57724200000000003; 0; 83; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011398; 0; 0; 0; ML003; 17722; 140548082235136; 0.58698399999999995; 2; 0.57558600000000004; 0; 81; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011392; 0; 0; 0; ML003; 17722; 140548090627840; 0.58848599999999995; 2; 0.577094; 0; 82; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006782; 0; 0; 0; ML003; 17722; 140548073842432; 0.58854399999999996; 2; 0.581762; 0; 84; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006698; 0; 0; 0; ML003; 17722; 140548099020544; 0.59117600000000003; 2; 0.58447800000000005; 0; 85; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006876; 0; 0; 0; ML003; 17722; 140548073842432; 0.59553199999999995; 2; 0.58865599999999996; 0; 88; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006414; 0; 0; 0; ML003; 17722; 140548099020544; 0.59763599999999995; 2; 0.59122200000000003; 0; 89; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01192; 0; 0; 0; ML003; 17722; 140548082235136; 0.59900699999999996; 2; 0.58708700000000003; 0; 86; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011219; 0; 0; 0; ML003; 17722; 140548090627840; 0.59985200000000005; 2; 0.58863299999999996; 0; 87; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007851; 0; 0; 0; ML003; 17722; 140548073842432; 0.60346999999999995; 2; 0.59561900000000001; 0; 90; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006652; 0; 0; 0; ML003; 17722; 140548099020544; 0.60434900000000003; 2; 0.59769700000000003; 0; 91; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.009728; 0; 0; 0; ML003; 17722; 140548082235136; 0.60882499999999995; 2; 0.59909699999999999; 0; 92; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.009118; 0; 0; 0; ML003; 17722; 140548090627840; 0.60905900000000002; 2; 0.59994099999999995; 0; 93; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006937; 0; 0; 0; ML003; 17722; 140548073842432; 0.61050400000000005; 2; 0.60356699999999996; 0; 94; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006609; 0; 0; 0; ML003; 17722; 140548099020544; 0.611008; 2; 0.60439900000000002; 0; 95; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006665; 0; 0; 0; ML003; 17722; 140548082235136; 0.61554200000000003; 2; 0.608877; 0; 96; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006594; 0; 0; 0; ML003; 17722; 140548090627840; 0.615707; 2; 0.60911300000000002; 0; 97; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006956; 0; 0; 0; ML003; 17722; 140548073842432; 0.61753599999999997; 2; 0.61058000000000001; 0; 98; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007381; 0; 0; 0; ML003; 17722; 140548099020544; 0.61844399999999999; 2; 0.61106300000000002; 0; 99; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006649; 0; 0; 0; ML003; 17722; 140548082235136; 0.62223899999999999; 3; 0.61558999999999997; 0; 0; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00683; 0; 0; 0; ML003; 17722; 140548090627840; 0.62258800000000003; 3; 0.61575800000000003; 0; 1; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006833; 0; 0; 0; ML003; 17722; 140548073842432; 0.624417; 3; 0.61758400000000002; 0; 2; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006691; 0; 0; 0; ML003; 17722; 140548099020544; 0.62519199999999997; 3; 0.61850099999999997; 0; 3; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006555; 0; 0; 0; ML003; 17722; 140548082235136; 0.62883999999999995; 3; 0.62228499999999998; 0; 4; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006794; 0; 0; 0; ML003; 17722; 140548090627840; 0.62942699999999996; 3; 0.62263299999999999; 0; 5; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006537; 0; 0; 0; ML003; 17722; 140548099020544; 0.63178299999999998; 3; 0.62524599999999997; 0; 7; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007501; 0; 0; 0; ML003; 17722; 140548073842432; 0.63198699999999997; 3; 0.62448599999999999; 0; 6; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00702; 0; 0; 0; ML003; 17722; 140548082235136; 0.635907; 3; 0.62888699999999997; 0; 8; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007846; 0; 0; 0; ML003; 17722; 140548090627840; 0.63731700000000002; 3; 0.629471; 0; 9; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007192; 0; 0; 0; ML003; 17722; 140548099020544; 0.63903200000000004; 3; 0.63183999999999996; 0; 10; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007747; 0; 0; 0; ML003; 17722; 140548073842432; 0.63980099999999995; 3; 0.632054; 0; 11; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006731; 0; 0; 0; ML003; 17722; 140548082235136; 0.64270300000000002; 3; 0.63597199999999998; 0; 12; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007195; 0; 0; 0; ML003; 17722; 140548090627840; 0.64456599999999997; 3; 0.63737100000000002; 0; 13; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006868; 0; 0; 0; ML003; 17722; 140548099020544; 0.64596299999999995; 3; 0.63909499999999997; 0; 14; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00692; 0; 0; 0; ML003; 17722; 140548073842432; 0.64679200000000003; 3; 0.639872; 0; 15; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007026; 0; 0; 0; ML003; 17722; 140548082235136; 0.64978899999999995; 3; 0.64276299999999997; 0; 16; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00704; 0; 0; 0; ML003; 17722; 140548090627840; 0.65165600000000001; 3; 0.64461599999999997; 0; 17; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006971; 0; 0; 0; ML003; 17722; 140548099020544; 0.65298999999999996; 3; 0.64601900000000001; 0; 18; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006908; 0; 0; 0; ML003; 17722; 140548073842432; 0.65376800000000002; 3; 0.64685999999999999; 0; 19; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006608; 0; 0; 0; ML003; 17722; 140548082235136; 0.65647299999999997; 3; 0.64986500000000003; 0; 20; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00666; 0; 0; 0; ML003; 17722; 140548090627840; 0.65836099999999997; 3; 0.65170099999999997; 0; 21; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00698; 0; 0; 0; ML003; 17722; 140548099020544; 0.66002499999999997; 3; 0.65304499999999999; 0; 22; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006807; 0; 0; 0; ML003; 17722; 140548073842432; 0.66064500000000004; 3; 0.65383800000000003; 0; 23; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00677; 0; 0; 0; ML003; 17722; 140548082235136; 0.66329000000000005; 3; 0.65651999999999999; 0; 24; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00733; 0; 0; 0; ML003; 17722; 140548090627840; 0.66574699999999998; 3; 0.65841700000000003; 0; 25; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007473; 0; 0; 0; ML003; 17722; 140548099020544; 0.66755100000000001; 3; 0.66007800000000005; 0; 26; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008043; 0; 0; 0; ML003; 17722; 140548073842432; 0.66875399999999996; 3; 0.66071100000000005; 0; 27; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00732; 0; 0; 0; ML003; 17722; 140548082235136; 0.67067299999999996; 3; 0.66335299999999997; 0; 28; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007207; 0; 0; 0; ML003; 17722; 140548090627840; 0.67303500000000005; 3; 0.66582799999999998; 0; 29; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006704; 0; 0; 0; ML003; 17722; 140548099020544; 0.67432099999999995; 3; 0.66761700000000002; 0; 30; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006751; 0; 0; 0; ML003; 17722; 140548073842432; 0.67557999999999996; 3; 0.66882900000000001; 0; 31; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006574; 0; 0; 0; ML003; 17722; 140548082235136; 0.67729499999999998; 3; 0.67072100000000001; 0; 32; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006679; 0; 0; 0; ML003; 17722; 140548090627840; 0.67976499999999995; 3; 0.67308599999999996; 0; 33; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007229; 0; 0; 0; ML003; 17722; 140548099020544; 0.68161000000000005; 3; 0.67438100000000001; 0; 34; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006788; 0; 0; 0; ML003; 17722; 140548073842432; 0.68243699999999996; 3; 0.67564900000000006; 0; 35; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006887; 0; 0; 0; ML003; 17722; 140548082235136; 0.68422499999999997; 3; 0.677338; 0; 36; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006751; 0; 0; 0; ML003; 17722; 140548090627840; 0.68656700000000004; 3; 0.67981599999999998; 0; 37; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006494; 0; 0; 0; ML003; 17722; 140548099020544; 0.68815800000000005; 3; 0.68166400000000005; 0; 38; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00647; 0; 0; 0; ML003; 17722; 140548073842432; 0.68897399999999998; 3; 0.682504; 0; 39; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006569; 0; 0; 0; ML003; 17722; 140548082235136; 0.69084999999999996; 3; 0.68428100000000003; 0; 40; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006707; 0; 0; 0; ML003; 17722; 140548090627840; 0.69332499999999997; 3; 0.68661799999999995; 0; 41; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006589; 0; 0; 0; ML003; 17722; 140548099020544; 0.69479000000000002; 3; 0.68820099999999995; 0; 42; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007042; 0; 0; 0; ML003; 17722; 140548073842432; 0.69608400000000004; 3; 0.68904200000000004; 0; 43; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006879; 0; 0; 0; ML003; 17722; 140548082235136; 0.69778399999999996; 3; 0.69090499999999999; 0; 44; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007684; 0; 0; 0; ML003; 17722; 140548090627840; 0.70105899999999999; 3; 0.69337499999999996; 0; 45; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007193; 0; 0; 0; ML003; 17722; 140548099020544; 0.70202600000000004; 3; 0.69483300000000003; 0; 46; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007796; 0; 0; 0; ML003; 17722; 140548073842432; 0.70394500000000004; 3; 0.69614900000000002; 0; 47; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007041; 0; 0; 0; ML003; 17722; 140548082235136; 0.70489199999999996; 3; 0.697851; 0; 48; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006624; 0; 0; 0; ML003; 17722; 140548090627840; 0.707735; 3; 0.70111100000000004; 0; 49; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006713; 0; 0; 0; ML003; 17722; 140548099020544; 0.70879400000000004; 3; 0.70208099999999996; 0; 50; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006772; 0; 0; 0; ML003; 17722; 140548073842432; 0.71079000000000003; 3; 0.70401800000000003; 0; 51; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007056; 0; 0; 0; ML003; 17722; 140548082235136; 0.71200399999999997; 3; 0.70494800000000002; 0; 52; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006835; 0; 0; 0; ML003; 17722; 140548090627840; 0.71461699999999995; 3; 0.70778200000000002; 0; 53; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007334; 0; 0; 0; ML003; 17722; 140548099020544; 0.71617900000000001; 3; 0.70884499999999995; 0; 54; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006866; 0; 0; 0; ML003; 17722; 140548073842432; 0.717727; 3; 0.71086099999999997; 0; 55; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00656; 0; 0; 0; ML003; 17722; 140548082235136; 0.71862300000000001; 3; 0.712063; 0; 56; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006523; 0; 0; 0; ML003; 17722; 140548090627840; 0.72118899999999997; 3; 0.71466600000000002; 0; 57; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006634; 0; 0; 0; ML003; 17722; 140548099020544; 0.72286099999999998; 3; 0.71622699999999995; 0; 58; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006731; 0; 0; 0; ML003; 17722; 140548073842432; 0.72452700000000003; 3; 0.71779599999999999; 0; 59; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006938; 0; 0; 0; ML003; 17722; 140548082235136; 0.72562099999999996; 3; 0.71868299999999996; 0; 60; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00661; 0; 0; 0; ML003; 17722; 140548090627840; 0.72784899999999997; 3; 0.72123899999999996; 0; 61; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006769; 0; 0; 0; ML003; 17722; 140548099020544; 0.72967199999999999; 3; 0.72290299999999996; 0; 62; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008152; 0; 0; 0; ML003; 17722; 140548073842432; 0.73274899999999998; 3; 0.72459700000000005; 0; 63; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007199; 0; 0; 0; ML003; 17722; 140548082235136; 0.73287400000000003; 3; 0.72567499999999996; 0; 64; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008143; 0; 0; 0; ML003; 17722; 140548090627840; 0.73604099999999995; 3; 0.72789800000000004; 0; 65; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007021; 0; 0; 0; ML003; 17722; 140548073842432; 0.739846; 3; 0.73282499999999995; 0; 67; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.010479; 0; 0; 0; ML003; 17722; 140548099020544; 0.740201; 3; 0.72972199999999998; 0; 66; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006707; 0; 0; 0; ML003; 17722; 140548090627840; 0.74284700000000004; 3; 0.73614000000000002; 0; 69; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011609; 0; 0; 0; ML003; 17722; 140548082235136; 0.74463599999999996; 3; 0.73302699999999998; 0; 68; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006809; 0; 0; 0; ML003; 17722; 140548073842432; 0.74678; 3; 0.73997100000000005; 0; 70; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006848; 0; 0; 0; ML003; 17722; 140548090627840; 0.74977499999999997; 3; 0.742927; 0; 72; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011256; 0; 0; 0; ML003; 17722; 140548099020544; 0.75155499999999997; 3; 0.74029900000000004; 0; 71; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006977; 0; 0; 0; ML003; 17722; 140548073842432; 0.75385999999999997; 3; 0.74688299999999996; 0; 74; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011636; 0; 0; 0; ML003; 17722; 140548082235136; 0.75634599999999996; 3; 0.74470999999999998; 0; 73; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006913; 0; 0; 0; ML003; 17722; 140548090627840; 0.75675099999999995; 3; 0.749838; 0; 75; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006578; 0; 0; 0; ML003; 17722; 140548073842432; 0.76050700000000004; 3; 0.75392899999999996; 0; 77; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011542; 0; 0; 0; ML003; 17722; 140548099020544; 0.76316899999999999; 3; 0.75162700000000005; 0; 76; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007804; 0; 0; 0; ML003; 17722; 140548090627840; 0.76461999999999997; 3; 0.75681600000000004; 0; 79; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011052; 0; 0; 0; ML003; 17722; 140548082235136; 0.76746599999999998; 3; 0.75641400000000003; 0; 78; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007889; 0; 0; 0; ML003; 17722; 140548073842432; 0.76848700000000003; 3; 0.760598; 0; 80; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006836; 0; 0; 0; ML003; 17722; 140548090627840; 0.77150799999999997; 3; 0.76467200000000002; 0; 82; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011457; 0; 0; 0; ML003; 17722; 140548099020544; 0.77470499999999998; 3; 0.76324800000000004; 0; 81; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006866; 0; 0; 0; ML003; 17722; 140548073842432; 0.77542800000000001; 3; 0.76856199999999997; 0; 84; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007133; 0; 0; 0; ML003; 17722; 140548090627840; 0.77873599999999998; 3; 0.77160300000000004; 0; 85; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011835; 0; 0; 0; ML003; 17722; 140548082235136; 0.77939899999999995; 3; 0.76756400000000002; 0; 83; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00736; 0; 0; 0; ML003; 17722; 140548073842432; 0.78284600000000004; 3; 0.77548600000000001; 0; 87; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006871; 0; 0; 0; ML003; 17722; 140548090627840; 0.78569299999999997; 3; 0.77882200000000001; 0; 88; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01133; 0; 0; 0; ML003; 17722; 140548099020544; 0.786134; 3; 0.77480400000000005; 0; 86; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006411; 0; 0; 0; ML003; 17722; 140548073842432; 0.78930400000000001; 3; 0.78289299999999995; 0; 90; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011358; 0; 0; 0; ML003; 17722; 140548082235136; 0.79082799999999998; 3; 0.77947; 0; 89; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00673; 0; 0; 0; ML003; 17722; 140548090627840; 0.79247599999999996; 3; 0.78574600000000006; 0; 91; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007429; 0; 0; 0; ML003; 17722; 140548073842432; 0.79677900000000002; 3; 0.78935; 0; 93; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011728; 0; 0; 0; ML003; 17722; 140548099020544; 0.79793199999999997; 3; 0.78620400000000001; 0; 92; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007927; 0; 0; 0; ML003; 17722; 140548090627840; 0.80049599999999999; 3; 0.79256899999999997; 0; 95; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011571; 0; 0; 0; ML003; 17722; 140548082235136; 0.80249400000000004; 3; 0.79092300000000004; 0; 94; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006613; 0; 0; 0; ML003; 17722; 140548073842432; 0.80349800000000005; 3; 0.79688499999999995; 0; 96; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006837; 0; 0; 0; ML003; 17722; 140548090627840; 0.80740999999999996; 3; 0.80057299999999998; 0; 98; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011247; 0; 0; 0; ML003; 17722; 140548099020544; 0.80925599999999998; 3; 0.79800899999999997; 0; 97; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011547; 0; 0; 0; ML003; 17722; 140548082235136; 0.81411699999999998; 3; 0.80257000000000001; 0; 99; manipulator; 1; RRTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+.
+prm
+0 common properties
+20 properties for each run
+time REAL
+success BOOLEAN
+correct BOOLEAN
+length REAL
+machine_hostname VARCHAR(128)
+machine_process_id BIGINT
+machine_thread_id BIGINT
+query_finish_time REAL
+query_index INT
+query_start_time REAL
+query_timeout_trial INT
+query_trial INT
+request_group_name VARCHAR(128)
+request_num_planning_attempts INT
+request_planner_id VARCHAR(128)
+request_planner_type VARCHAR(128)
+robowflex_planner_name VARCHAR(128)
+robowflex_robot_name VARCHAR(128)
+smoothness REAL
+waypoints INT
+200 runs
+0.006977; 0; 0; 0; ML003; 17722; 140548073842432; 0.81052500000000005; 4; 0.80354800000000004; 0; 0; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00732; 0; 0; 0; ML003; 17722; 140548090627840; 0.81477900000000003; 4; 0.80745900000000004; 0; 1; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006898; 0; 0; 0; ML003; 17722; 140548073842432; 0.81749499999999997; 4; 0.81059700000000001; 0; 3; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01181; 0; 0; 0; ML003; 17722; 140548099020544; 0.82117099999999998; 4; 0.809361; 0; 2; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006612; 0; 0; 0; ML003; 17722; 140548090627840; 0.82148399999999999; 4; 0.81487200000000004; 0; 5; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006954; 0; 0; 0; ML003; 17722; 140548073842432; 0.82452300000000001; 4; 0.81756899999999999; 0; 6; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011929; 0; 0; 0; ML003; 17722; 140548082235136; 0.82611800000000002; 4; 0.81418900000000005; 0; 4; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007063; 0; 0; 0; ML003; 17722; 140548090627840; 0.82862100000000005; 4; 0.82155800000000001; 0; 8; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008072; 0; 0; 0; ML003; 17722; 140548073842432; 0.83266799999999996; 4; 0.824596; 0; 9; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011612; 0; 0; 0; ML003; 17722; 140548099020544; 0.83287800000000001; 4; 0.82126600000000005; 0; 7; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006919; 0; 0; 0; ML003; 17722; 140548090627840; 0.83563799999999999; 4; 0.82871899999999998; 0; 11; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011477; 0; 0; 0; ML003; 17722; 140548082235136; 0.83769099999999996; 4; 0.826214; 0; 10; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007219; 0; 0; 0; ML003; 17722; 140548073842432; 0.83996099999999996; 4; 0.83274199999999998; 0; 12; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.009057; 0; 0; 0; ML003; 17722; 140548099020544; 0.84200799999999998; 4; 0.832951; 0; 13; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00713; 0; 0; 0; ML003; 17722; 140548090627840; 0.84282800000000002; 4; 0.83569800000000005; 0; 14; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006738; 0; 0; 0; ML003; 17722; 140548082235136; 0.84452300000000002; 4; 0.837785; 0; 15; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007067; 0; 0; 0; ML003; 17722; 140548073842432; 0.84708799999999995; 4; 0.84002100000000002; 0; 16; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006911; 0; 0; 0; ML003; 17722; 140548099020544; 0.84897199999999995; 4; 0.84206099999999995; 0; 17; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007606; 0; 0; 0; ML003; 17722; 140548090627840; 0.85048199999999996; 4; 0.84287599999999996; 0; 18; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006977; 0; 0; 0; ML003; 17722; 140548082235136; 0.85157099999999997; 4; 0.84459399999999996; 0; 19; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006993; 0; 0; 0; ML003; 17722; 140548073842432; 0.85417299999999996; 4; 0.84718000000000004; 0; 20; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006822; 0; 0; 0; ML003; 17722; 140548099020544; 0.85586399999999996; 4; 0.84904199999999996; 0; 21; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006533; 0; 0; 0; ML003; 17722; 140548090627840; 0.85706400000000005; 4; 0.85053100000000004; 0; 22; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006836; 0; 0; 0; ML003; 17722; 140548082235136; 0.85847799999999996; 4; 0.85164200000000001; 0; 23; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006947; 0; 0; 0; ML003; 17722; 140548073842432; 0.86117699999999997; 4; 0.85423000000000004; 0; 24; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007679; 0; 0; 0; ML003; 17722; 140548099020544; 0.86358699999999999; 4; 0.855908; 0; 25; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007156; 0; 0; 0; ML003; 17722; 140548090627840; 0.86427100000000001; 4; 0.85711499999999996; 0; 26; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008014; 0; 0; 0; ML003; 17722; 140548082235136; 0.866564; 4; 0.85855000000000004; 0; 27; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007443; 0; 0; 0; ML003; 17722; 140548073842432; 0.86868800000000002; 4; 0.86124500000000004; 0; 28; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006919; 0; 0; 0; ML003; 17722; 140548099020544; 0.87056299999999998; 4; 0.86364399999999997; 0; 29; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006901; 0; 0; 0; ML003; 17722; 140548090627840; 0.87122200000000005; 4; 0.86432100000000001; 0; 30; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006703; 0; 0; 0; ML003; 17722; 140548082235136; 0.87331899999999996; 4; 0.86661600000000005; 0; 31; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007166; 0; 0; 0; ML003; 17722; 140548073842432; 0.87591399999999997; 4; 0.86874799999999996; 0; 32; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006655; 0; 0; 0; ML003; 17722; 140548099020544; 0.87727200000000005; 4; 0.87061699999999997; 0; 33; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006747; 0; 0; 0; ML003; 17722; 140548090627840; 0.87804000000000004; 4; 0.87129299999999998; 0; 34; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007217; 0; 0; 0; ML003; 17722; 140548082235136; 0.88059299999999996; 4; 0.87337600000000004; 0; 35; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006759; 0; 0; 0; ML003; 17722; 140548073842432; 0.88273299999999999; 4; 0.87597400000000003; 0; 36; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006746; 0; 0; 0; ML003; 17722; 140548099020544; 0.88406200000000001; 4; 0.87731599999999998; 0; 37; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007191; 0; 0; 0; ML003; 17722; 140548090627840; 0.88527800000000001; 4; 0.87808699999999995; 0; 38; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006974; 0; 0; 0; ML003; 17722; 140548082235136; 0.88764100000000001; 4; 0.88066699999999998; 0; 39; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0068; 0; 0; 0; ML003; 17722; 140548073842432; 0.88959100000000002; 4; 0.88279099999999999; 0; 40; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007589; 0; 0; 0; ML003; 17722; 140548099020544; 0.89169699999999996; 4; 0.884108; 0; 41; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006718; 0; 0; 0; ML003; 17722; 140548090627840; 0.89204399999999995; 4; 0.88532599999999995; 0; 42; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007959; 0; 0; 0; ML003; 17722; 140548082235136; 0.89567200000000002; 4; 0.88771299999999997; 0; 43; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007498; 0; 0; 0; ML003; 17722; 140548073842432; 0.89715999999999996; 4; 0.88966199999999995; 0; 44; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006947; 0; 0; 0; ML003; 17722; 140548099020544; 0.89869100000000002; 4; 0.89174399999999998; 0; 45; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006978; 0; 0; 0; ML003; 17722; 140548090627840; 0.89907899999999996; 4; 0.89210100000000003; 0; 46; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006924; 0; 0; 0; ML003; 17722; 140548082235136; 0.90267500000000001; 4; 0.89575099999999996; 0; 47; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006623; 0; 0; 0; ML003; 17722; 140548073842432; 0.90383400000000003; 4; 0.89721099999999998; 0; 48; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006632; 0; 0; 0; ML003; 17722; 140548099020544; 0.90537299999999998; 4; 0.89874100000000001; 0; 49; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006575; 0; 0; 0; ML003; 17722; 140548090627840; 0.90570099999999998; 4; 0.89912599999999998; 0; 50; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007122; 0; 0; 0; ML003; 17722; 140548082235136; 0.90985799999999994; 4; 0.90273599999999998; 0; 51; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006893; 0; 0; 0; ML003; 17722; 140548073842432; 0.91079900000000003; 4; 0.90390599999999999; 0; 52; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006563; 0; 0; 0; ML003; 17722; 140548099020544; 0.91198000000000001; 4; 0.90541700000000003; 0; 53; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006583; 0; 0; 0; ML003; 17722; 140548090627840; 0.91233200000000003; 4; 0.90574900000000003; 0; 54; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006809; 0; 0; 0; ML003; 17722; 140548082235136; 0.91674100000000003; 4; 0.90993199999999996; 0; 55; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006494; 0; 0; 0; ML003; 17722; 140548073842432; 0.91734099999999996; 4; 0.91084699999999996; 0; 56; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006924; 0; 0; 0; ML003; 17722; 140548099020544; 0.91895800000000005; 4; 0.91203400000000001; 0; 57; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006653; 0; 0; 0; ML003; 17722; 140548090627840; 0.91903500000000005; 4; 0.91238200000000003; 0; 58; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006941; 0; 0; 0; ML003; 17722; 140548082235136; 0.92375499999999999; 4; 0.91681400000000002; 0; 59; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006759; 0; 0; 0; ML003; 17722; 140548073842432; 0.92414200000000002; 4; 0.91738299999999995; 0; 60; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006932; 0; 0; 0; ML003; 17722; 140548090627840; 0.92605800000000005; 4; 0.919126; 0; 62; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007716; 0; 0; 0; ML003; 17722; 140548099020544; 0.92673099999999997; 4; 0.91901500000000003; 0; 61; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007112; 0; 0; 0; ML003; 17722; 140548073842432; 0.93129899999999999; 4; 0.92418699999999998; 0; 64; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007788; 0; 0; 0; ML003; 17722; 140548082235136; 0.93161499999999997; 4; 0.92382699999999995; 0; 63; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007149; 0; 0; 0; ML003; 17722; 140548090627840; 0.93325899999999995; 4; 0.92610999999999999; 0; 65; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006718; 0; 0; 0; ML003; 17722; 140548099020544; 0.93351099999999998; 4; 0.92679299999999998; 0; 66; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006647; 0; 0; 0; ML003; 17722; 140548073842432; 0.93799500000000002; 4; 0.93134799999999995; 0; 67; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006616; 0; 0; 0; ML003; 17722; 140548082235136; 0.93830400000000003; 4; 0.93168799999999996; 0; 68; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00666; 0; 0; 0; ML003; 17722; 140548090627840; 0.93997699999999995; 4; 0.93331699999999995; 0; 69; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006457; 0; 0; 0; ML003; 17722; 140548099020544; 0.94001800000000002; 4; 0.93356099999999997; 0; 70; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006416; 0; 0; 0; ML003; 17722; 140548073842432; 0.94445500000000004; 4; 0.93803899999999996; 0; 71; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006841; 0; 0; 0; ML003; 17722; 140548082235136; 0.945214; 4; 0.93837300000000001; 0; 72; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006749; 0; 0; 0; ML003; 17722; 140548090627840; 0.94682299999999997; 4; 0.94007399999999997; 0; 73; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006923; 0; 0; 0; ML003; 17722; 140548099020544; 0.94701100000000005; 4; 0.94008800000000003; 0; 74; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007201; 0; 0; 0; ML003; 17722; 140548073842432; 0.95170999999999994; 4; 0.94450900000000004; 0; 75; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007425; 0; 0; 0; ML003; 17722; 140548082235136; 0.95270900000000003; 4; 0.94528400000000001; 0; 76; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00691; 0; 0; 0; ML003; 17722; 140548090627840; 0.95379000000000003; 4; 0.94688000000000005; 0; 77; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006804; 0; 0; 0; ML003; 17722; 140548099020544; 0.95386099999999996; 4; 0.94705700000000004; 0; 78; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006828; 0; 0; 0; ML003; 17722; 140548073842432; 0.95859300000000003; 4; 0.95176499999999997; 0; 79; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007095; 0; 0; 0; ML003; 17722; 140548082235136; 0.95988700000000005; 4; 0.95279199999999997; 0; 80; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007067; 0; 0; 0; ML003; 17722; 140548090627840; 0.96094800000000002; 4; 0.95388099999999998; 0; 81; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008155; 0; 0; 0; ML003; 17722; 140548099020544; 0.96209199999999995; 4; 0.95393700000000003; 0; 82; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007399; 0; 0; 0; ML003; 17722; 140548073842432; 0.96604100000000004; 4; 0.95864199999999999; 0; 83; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006526; 0; 0; 0; ML003; 17722; 140548082235136; 0.96646699999999996; 4; 0.95994100000000004; 0; 84; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006852; 0; 0; 0; ML003; 17722; 140548090627840; 0.96784700000000001; 4; 0.96099500000000004; 0; 85; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006765; 0; 0; 0; ML003; 17722; 140548099020544; 0.96892900000000004; 4; 0.96216400000000002; 0; 86; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006629; 0; 0; 0; ML003; 17722; 140548073842432; 0.97271799999999997; 4; 0.96608899999999998; 0; 87; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006732; 0; 0; 0; ML003; 17722; 140548082235136; 0.97324900000000003; 4; 0.96651699999999996; 0; 88; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006684; 0; 0; 0; ML003; 17722; 140548090627840; 0.97458999999999996; 4; 0.96790600000000004; 0; 89; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006764; 0; 0; 0; ML003; 17722; 140548099020544; 0.97576399999999996; 4; 0.96899999999999997; 0; 90; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006762; 0; 0; 0; ML003; 17722; 140548073842432; 0.97952399999999995; 4; 0.97276200000000002; 0; 91; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006691; 0; 0; 0; ML003; 17722; 140548082235136; 0.979989; 4; 0.973298; 0; 92; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006708; 0; 0; 0; ML003; 17722; 140548090627840; 0.98135399999999995; 4; 0.97464600000000001; 0; 93; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006755; 0; 0; 0; ML003; 17722; 140548099020544; 0.98258699999999999; 4; 0.97583200000000003; 0; 94; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006642; 0; 0; 0; ML003; 17722; 140548073842432; 0.98621099999999995; 4; 0.97956900000000002; 0; 95; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006836; 0; 0; 0; ML003; 17722; 140548082235136; 0.98687499999999995; 4; 0.98003899999999999; 0; 96; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00695; 0; 0; 0; ML003; 17722; 140548090627840; 0.98836000000000002; 4; 0.98141; 0; 97; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007618; 0; 0; 0; ML003; 17722; 140548099020544; 0.99027500000000002; 4; 0.982657; 0; 98; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007064; 0; 0; 0; ML003; 17722; 140548073842432; 0.99332799999999999; 4; 0.98626400000000003; 0; 99; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007303; 0; 0; 0; ML003; 17722; 140548082235136; 0.994228; 5; 0.98692500000000005; 0; 0; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007917; 0; 0; 0; ML003; 17722; 140548090627840; 0.99634800000000001; 5; 0.98843099999999995; 0; 1; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006959; 0; 0; 0; ML003; 17722; 140548099020544; 0.99728300000000003; 5; 0.99032399999999998; 0; 2; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00729; 0; 0; 0; ML003; 17722; 140548073842432; 1.000669; 5; 0.99337900000000001; 0; 3; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006895; 0; 0; 0; ML003; 17722; 140548082235136; 1.0011699999999999; 5; 0.99427500000000002; 0; 4; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006686; 0; 0; 0; ML003; 17722; 140548090627840; 1.003107; 5; 0.996421; 0; 5; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006618; 0; 0; 0; ML003; 17722; 140548099020544; 1.0039549999999999; 5; 0.99733700000000003; 0; 6; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006369; 0; 0; 0; ML003; 17722; 140548082235136; 1.007592; 5; 1.001223; 0; 8; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007459; 0; 0; 0; ML003; 17722; 140548073842432; 1.0081830000000001; 5; 1.0007239999999999; 0; 7; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006749; 0; 0; 0; ML003; 17722; 140548090627840; 1.009925; 5; 1.0031760000000001; 0; 9; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.010086; 0; 0; 0; ML003; 17722; 140548099020544; 1.0140940000000001; 5; 1.004008; 0; 10; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006792; 0; 0; 0; ML003; 17722; 140548082235136; 1.0144340000000001; 5; 1.0076419999999999; 0; 11; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00653; 0; 0; 0; ML003; 17722; 140548090627840; 1.016526; 5; 1.0099959999999999; 0; 13; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011024; 0; 0; 0; ML003; 17722; 140548073842432; 1.019277; 5; 1.0082530000000001; 0; 12; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00681; 0; 0; 0; ML003; 17722; 140548082235136; 1.0212950000000001; 5; 1.0144850000000001; 0; 15; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008227; 0; 0; 0; ML003; 17722; 140548090627840; 1.0248280000000001; 5; 1.0166010000000001; 0; 16; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011819; 0; 0; 0; ML003; 17722; 140548099020544; 1.0259830000000001; 5; 1.0141640000000001; 0; 14; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00707; 0; 0; 0; ML003; 17722; 140548082235136; 1.0284409999999999; 5; 1.021371; 0; 18; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011521; 0; 0; 0; ML003; 17722; 140548073842432; 1.0308980000000001; 5; 1.019377; 0; 17; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006776; 0; 0; 0; ML003; 17722; 140548090627840; 1.0316780000000001; 5; 1.024902; 0; 19; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006397; 0; 0; 0; ML003; 17722; 140548082235136; 1.034886; 5; 1.028489; 0; 21; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011106; 0; 0; 0; ML003; 17722; 140548099020544; 1.037183; 5; 1.0260769999999999; 0; 20; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006714; 0; 0; 0; ML003; 17722; 140548090627840; 1.038459; 5; 1.0317449999999999; 0; 23; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006618; 0; 0; 0; ML003; 17722; 140548082235136; 1.0415479999999999; 5; 1.0349299999999999; 0; 24; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011271; 0; 0; 0; ML003; 17722; 140548073842432; 1.0422400000000001; 5; 1.030969; 0; 22; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006674; 0; 0; 0; ML003; 17722; 140548090627840; 1.045201; 5; 1.038527; 0; 26; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006717; 0; 0; 0; ML003; 17722; 140548082235136; 1.0483210000000001; 5; 1.041604; 0; 27; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011288; 0; 0; 0; ML003; 17722; 140548099020544; 1.0485390000000001; 5; 1.0372509999999999; 0; 25; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007999; 0; 0; 0; ML003; 17722; 140548090627840; 1.0532710000000001; 5; 1.045272; 0; 29; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011434; 0; 0; 0; ML003; 17722; 140548073842432; 1.0537430000000001; 5; 1.0423089999999999; 0; 28; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008071; 0; 0; 0; ML003; 17722; 140548082235136; 1.0565009999999999; 5; 1.04843; 0; 30; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011476; 0; 0; 0; ML003; 17722; 140548099020544; 1.0601659999999999; 5; 1.0486899999999999; 0; 31; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007137; 0; 0; 0; ML003; 17722; 140548090627840; 1.0605009999999999; 5; 1.053364; 0; 32; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006766; 0; 0; 0; ML003; 17722; 140548082235136; 1.063348; 5; 1.0565819999999999; 0; 34; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011466; 0; 0; 0; ML003; 17722; 140548073842432; 1.0652809999999999; 5; 1.0538149999999999; 0; 33; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006596; 0; 0; 0; ML003; 17722; 140548090627840; 1.067143; 5; 1.0605469999999999; 0; 36; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006559; 0; 0; 0; ML003; 17722; 140548082235136; 1.069963; 5; 1.063404; 0; 37; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011527; 0; 0; 0; ML003; 17722; 140548099020544; 1.0718179999999999; 5; 1.0602910000000001; 0; 35; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006732; 0; 0; 0; ML003; 17722; 140548090627840; 1.07392; 5; 1.067188; 0; 39; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011231; 0; 0; 0; ML003; 17722; 140548073842432; 1.0766119999999999; 5; 1.0653809999999999; 0; 38; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00664; 0; 0; 0; ML003; 17722; 140548082235136; 1.076657; 5; 1.070017; 0; 40; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006697; 0; 0; 0; ML003; 17722; 140548090627840; 1.0806659999999999; 5; 1.073969; 0; 42; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011346; 0; 0; 0; ML003; 17722; 140548099020544; 1.0832619999999999; 5; 1.0719160000000001; 0; 41; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006986; 0; 0; 0; ML003; 17722; 140548082235136; 1.083752; 5; 1.0767659999999999; 0; 44; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007125; 0; 0; 0; ML003; 17722; 140548090627840; 1.0878410000000001; 5; 1.080716; 0; 45; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011518; 0; 0; 0; ML003; 17722; 140548073842432; 1.0882579999999999; 5; 1.07674; 0; 43; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006605; 0; 0; 0; ML003; 17722; 140548082235136; 1.0904069999999999; 5; 1.0838019999999999; 0; 47; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006746; 0; 0; 0; ML003; 17722; 140548090627840; 1.0946899999999999; 5; 1.087944; 0; 48; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011842; 0; 0; 0; ML003; 17722; 140548099020544; 1.09518; 5; 1.0833379999999999; 0; 46; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006678; 0; 0; 0; ML003; 17722; 140548082235136; 1.0971420000000001; 5; 1.0904640000000001; 0; 50; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011573; 0; 0; 0; ML003; 17722; 140548073842432; 1.0999270000000001; 5; 1.088354; 0; 49; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006886; 0; 0; 0; ML003; 17722; 140548090627840; 1.1016520000000001; 5; 1.0947659999999999; 0; 51; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00653; 0; 0; 0; ML003; 17722; 140548082235136; 1.103748; 5; 1.097218; 0; 53; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011672; 0; 0; 0; ML003; 17722; 140548099020544; 1.1069500000000001; 5; 1.095278; 0; 52; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006792; 0; 0; 0; ML003; 17722; 140548090627840; 1.108498; 5; 1.1017060000000001; 0; 55; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006533; 0; 0; 0; ML003; 17722; 140548082235136; 1.1103559999999999; 5; 1.103823; 0; 56; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.01153; 0; 0; 0; ML003; 17722; 140548073842432; 1.1115660000000001; 5; 1.100036; 0; 54; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007854; 0; 0; 0; ML003; 17722; 140548090627840; 1.1164160000000001; 5; 1.108562; 0; 58; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006788; 0; 0; 0; ML003; 17722; 140548082235136; 1.1171930000000001; 5; 1.1104050000000001; 0; 59; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011596; 0; 0; 0; ML003; 17722; 140548099020544; 1.118614; 5; 1.1070180000000001; 0; 57; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011509; 0; 0; 0; ML003; 17722; 140548073842432; 1.123167; 5; 1.111658; 0; 60; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006684; 0; 0; 0; ML003; 17722; 140548090627840; 1.123197; 5; 1.1165130000000001; 0; 61; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007045; 0; 0; 0; ML003; 17722; 140548082235136; 1.1243030000000001; 5; 1.1172580000000001; 0; 62; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011522; 0; 0; 0; ML003; 17722; 140548099020544; 1.1302099999999999; 5; 1.1186879999999999; 0; 63; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007328; 0; 0; 0; ML003; 17722; 140548090627840; 1.1305799999999999; 5; 1.1232519999999999; 0; 65; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00682; 0; 0; 0; ML003; 17722; 140548082235136; 1.1311789999999999; 5; 1.1243590000000001; 0; 66; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011493; 0; 0; 0; ML003; 17722; 140548073842432; 1.1347670000000001; 5; 1.1232740000000001; 0; 64; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006793; 0; 0; 0; ML003; 17722; 140548090627840; 1.137424; 5; 1.1306309999999999; 0; 68; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006801; 0; 0; 0; ML003; 17722; 140548082235136; 1.138034; 5; 1.1312329999999999; 0; 69; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011569; 0; 0; 0; ML003; 17722; 140548099020544; 1.141883; 5; 1.130314; 0; 67; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006816; 0; 0; 0; ML003; 17722; 140548090627840; 1.1442920000000001; 5; 1.1374759999999999; 0; 71; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006721; 0; 0; 0; ML003; 17722; 140548082235136; 1.1448119999999999; 5; 1.138091; 0; 72; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.012043; 0; 0; 0; ML003; 17722; 140548073842432; 1.146906; 5; 1.134863; 0; 70; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007976; 0; 0; 0; ML003; 17722; 140548090627840; 1.1523479999999999; 5; 1.1443719999999999; 0; 74; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008012; 0; 0; 0; ML003; 17722; 140548082235136; 1.152876; 5; 1.1448640000000001; 0; 75; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011434; 0; 0; 0; ML003; 17722; 140548099020544; 1.1533880000000001; 5; 1.1419539999999999; 0; 73; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.009834; 0; 0; 0; ML003; 17722; 140548073842432; 1.1568419999999999; 5; 1.147008; 0; 76; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006809; 0; 0; 0; ML003; 17722; 140548090627840; 1.1592549999999999; 5; 1.1524460000000001; 0; 77; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006734; 0; 0; 0; ML003; 17722; 140548082235136; 1.1596630000000001; 5; 1.1529290000000001; 0; 78; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006897; 0; 0; 0; ML003; 17722; 140548099020544; 1.160358; 5; 1.1534610000000001; 0; 79; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007371; 0; 0; 0; ML003; 17722; 140548073842432; 1.1642710000000001; 5; 1.1569; 0; 80; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006657; 0; 0; 0; ML003; 17722; 140548090627840; 1.165967; 5; 1.1593100000000001; 0; 81; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006971; 0; 0; 0; ML003; 17722; 140548082235136; 1.166704; 5; 1.1597329999999999; 0; 82; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006855; 0; 0; 0; ML003; 17722; 140548099020544; 1.167265; 5; 1.1604099999999999; 0; 83; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006634; 0; 0; 0; ML003; 17722; 140548073842432; 1.1709510000000001; 5; 1.164317; 0; 84; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006496; 0; 0; 0; ML003; 17722; 140548090627840; 1.172525; 5; 1.166029; 0; 85; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006658; 0; 0; 0; ML003; 17722; 140548082235136; 1.173432; 5; 1.166774; 0; 86; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006654; 0; 0; 0; ML003; 17722; 140548099020544; 1.17397; 5; 1.167316; 0; 87; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007051; 0; 0; 0; ML003; 17722; 140548073842432; 1.1780470000000001; 5; 1.1709959999999999; 0; 88; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007167; 0; 0; 0; ML003; 17722; 140548082235136; 1.1806669999999999; 5; 1.1735; 0; 90; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008111; 0; 0; 0; ML003; 17722; 140548090627840; 1.1806909999999999; 5; 1.17258; 0; 89; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006913; 0; 0; 0; ML003; 17722; 140548099020544; 1.1809320000000001; 5; 1.1740189999999999; 0; 91; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007219; 0; 0; 0; ML003; 17722; 140548073842432; 1.1853119999999999; 5; 1.1780930000000001; 0; 92; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006746; 0; 0; 0; ML003; 17722; 140548090627840; 1.1875169999999999; 5; 1.180771; 0; 94; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006681; 0; 0; 0; ML003; 17722; 140548099020544; 1.1876679999999999; 5; 1.180987; 0; 95; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007956; 0; 0; 0; ML003; 17722; 140548082235136; 1.188717; 5; 1.1807609999999999; 0; 93; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006696; 0; 0; 0; ML003; 17722; 140548073842432; 1.1920649999999999; 5; 1.1853689999999999; 0; 96; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006587; 0; 0; 0; ML003; 17722; 140548090627840; 1.1941520000000001; 5; 1.187565; 0; 97; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006678; 0; 0; 0; ML003; 17722; 140548099020544; 1.194399; 5; 1.187721; 0; 98; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006813; 0; 0; 0; ML003; 17722; 140548082235136; 1.1956; 5; 1.188787; 0; 99; manipulator; 1; PRMkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+.
+est
+0 common properties
+20 properties for each run
+time REAL
+success BOOLEAN
+correct BOOLEAN
+length REAL
+machine_hostname VARCHAR(128)
+machine_process_id BIGINT
+machine_thread_id BIGINT
+query_finish_time REAL
+query_index INT
+query_start_time REAL
+query_timeout_trial INT
+query_trial INT
+request_group_name VARCHAR(128)
+request_num_planning_attempts INT
+request_planner_id VARCHAR(128)
+request_planner_type VARCHAR(128)
+robowflex_planner_name VARCHAR(128)
+robowflex_robot_name VARCHAR(128)
+smoothness REAL
+waypoints INT
+200 runs
+0.007408; 0; 0; 0; ML003; 17722; 140548073842432; 1.1995290000000001; 6; 1.192121; 0; 0; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006736; 0; 0; 0; ML003; 17722; 140548090627840; 1.2009320000000001; 6; 1.194196; 0; 1; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006838; 0; 0; 0; ML003; 17722; 140548099020544; 1.2012910000000001; 6; 1.194453; 0; 2; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006738; 0; 0; 0; ML003; 17722; 140548082235136; 1.20241; 6; 1.1956720000000001; 0; 3; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00656; 0; 0; 0; ML003; 17722; 140548073842432; 1.2061360000000001; 6; 1.199576; 0; 4; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006727; 0; 0; 0; ML003; 17722; 140548090627840; 1.2077180000000001; 6; 1.2009909999999999; 0; 5; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006706; 0; 0; 0; ML003; 17722; 140548099020544; 1.208048; 6; 1.2013419999999999; 0; 6; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006947; 0; 0; 0; ML003; 17722; 140548082235136; 1.2094290000000001; 6; 1.2024820000000001; 0; 7; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006969; 0; 0; 0; ML003; 17722; 140548073842432; 1.213149; 6; 1.20618; 0; 8; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007575; 0; 0; 0; ML003; 17722; 140548090627840; 1.2153480000000001; 6; 1.207773; 0; 9; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008397; 0; 0; 0; ML003; 17722; 140548099020544; 1.216502; 6; 1.208105; 0; 10; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007278; 0; 0; 0; ML003; 17722; 140548082235136; 1.2167779999999999; 6; 1.2095; 0; 11; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006743; 0; 0; 0; ML003; 17722; 140548073842432; 1.219948; 6; 1.2132050000000001; 0; 12; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006691; 0; 0; 0; ML003; 17722; 140548090627840; 1.222099; 6; 1.215408; 0; 13; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006845; 0; 0; 0; ML003; 17722; 140548099020544; 1.223401; 6; 1.216556; 0; 14; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007269; 0; 0; 0; ML003; 17722; 140548082235136; 1.2241169999999999; 6; 1.2168479999999999; 0; 15; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006745; 0; 0; 0; ML003; 17722; 140548073842432; 1.2267429999999999; 6; 1.2199979999999999; 0; 16; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006452; 0; 0; 0; ML003; 17722; 140548090627840; 1.22861; 6; 1.2221580000000001; 0; 17; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007228; 0; 0; 0; ML003; 17722; 140548099020544; 1.230685; 6; 1.223457; 0; 18; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006871; 0; 0; 0; ML003; 17722; 140548082235136; 1.2310589999999999; 6; 1.2241880000000001; 0; 19; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006739; 0; 0; 0; ML003; 17722; 140548073842432; 1.2335400000000001; 6; 1.226801; 0; 20; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006666; 0; 0; 0; ML003; 17722; 140548090627840; 1.2353259999999999; 6; 1.2286600000000001; 0; 21; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006631; 0; 0; 0; ML003; 17722; 140548099020544; 1.237363; 6; 1.2307319999999999; 0; 22; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006943; 0; 0; 0; ML003; 17722; 140548082235136; 1.2380720000000001; 6; 1.2311289999999999; 0; 23; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00675; 0; 0; 0; ML003; 17722; 140548073842432; 1.2403470000000001; 6; 1.2335970000000001; 0; 24; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006983; 0; 0; 0; ML003; 17722; 140548090627840; 1.2423599999999999; 6; 1.2353769999999999; 0; 25; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007098; 0; 0; 0; ML003; 17722; 140548099020544; 1.2445059999999999; 6; 1.2374080000000001; 0; 26; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006707; 0; 0; 0; ML003; 17722; 140548082235136; 1.24485; 6; 1.238143; 0; 27; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0079; 0; 0; 0; ML003; 17722; 140548073842432; 1.2483029999999999; 6; 1.2404029999999999; 0; 28; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007454; 0; 0; 0; ML003; 17722; 140548090627840; 1.2498990000000001; 6; 1.242445; 0; 29; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007637; 0; 0; 0; ML003; 17722; 140548082235136; 1.2525390000000001; 6; 1.244902; 0; 31; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008296; 0; 0; 0; ML003; 17722; 140548099020544; 1.2528809999999999; 6; 1.2445850000000001; 0; 30; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006759; 0; 0; 0; ML003; 17722; 140548073842432; 1.2551319999999999; 6; 1.248373; 0; 32; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006759; 0; 0; 0; ML003; 17722; 140548090627840; 1.256723; 6; 1.2499640000000001; 0; 33; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006823; 0; 0; 0; ML003; 17722; 140548082235136; 1.2594240000000001; 6; 1.2526010000000001; 0; 34; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006864; 0; 0; 0; ML003; 17722; 140548099020544; 1.259816; 6; 1.2529520000000001; 0; 35; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006846; 0; 0; 0; ML003; 17722; 140548073842432; 1.2620389999999999; 6; 1.255193; 0; 36; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007307; 0; 0; 0; ML003; 17722; 140548090627840; 1.264078; 6; 1.2567710000000001; 0; 37; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007148; 0; 0; 0; ML003; 17722; 140548082235136; 1.266624; 6; 1.259476; 0; 38; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006824; 0; 0; 0; ML003; 17722; 140548099020544; 1.2667120000000001; 6; 1.2598879999999999; 0; 39; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006534; 0; 0; 0; ML003; 17722; 140548073842432; 1.268629; 6; 1.262095; 0; 40; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006751; 0; 0; 0; ML003; 17722; 140548090627840; 1.2708759999999999; 6; 1.2641249999999999; 0; 41; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006618; 0; 0; 0; ML003; 17722; 140548082235136; 1.273306; 6; 1.266688; 0; 42; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007082; 0; 0; 0; ML003; 17722; 140548099020544; 1.2739050000000001; 6; 1.266823; 0; 43; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007616; 0; 0; 0; ML003; 17722; 140548073842432; 1.2763009999999999; 6; 1.2686850000000001; 0; 44; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007068; 0; 0; 0; ML003; 17722; 140548090627840; 1.2779910000000001; 6; 1.270923; 0; 45; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006882; 0; 0; 0; ML003; 17722; 140548082235136; 1.2802389999999999; 6; 1.2733570000000001; 0; 46; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007446; 0; 0; 0; ML003; 17722; 140548099020544; 1.2814209999999999; 6; 1.2739750000000001; 0; 47; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006659; 0; 0; 0; ML003; 17722; 140548073842432; 1.2830090000000001; 6; 1.2763500000000001; 0; 48; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007856; 0; 0; 0; ML003; 17722; 140548090627840; 1.2859039999999999; 6; 1.2780480000000001; 0; 49; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007042; 0; 0; 0; ML003; 17722; 140548082235136; 1.287336; 6; 1.280294; 0; 50; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006773; 0; 0; 0; ML003; 17722; 140548099020544; 1.288273; 6; 1.2815000000000001; 0; 51; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0065; 0; 0; 0; ML003; 17722; 140548073842432; 1.2895570000000001; 6; 1.2830569999999999; 0; 52; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006805; 0; 0; 0; ML003; 17722; 140548090627840; 1.2927850000000001; 6; 1.2859799999999999; 0; 53; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006838; 0; 0; 0; ML003; 17722; 140548082235136; 1.2942260000000001; 6; 1.287388; 0; 54; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00679; 0; 0; 0; ML003; 17722; 140548099020544; 1.29512; 6; 1.28833; 0; 55; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006574; 0; 0; 0; ML003; 17722; 140548073842432; 1.296176; 6; 1.2896019999999999; 0; 56; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00757; 0; 0; 0; ML003; 17722; 140548090627840; 1.3004279999999999; 6; 1.2928580000000001; 0; 57; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006832; 0; 0; 0; ML003; 17722; 140548082235136; 1.30111; 6; 1.294278; 0; 58; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007046; 0; 0; 0; ML003; 17722; 140548099020544; 1.302222; 6; 1.2951760000000001; 0; 59; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00672; 0; 0; 0; ML003; 17722; 140548073842432; 1.3029539999999999; 6; 1.2962340000000001; 0; 60; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006726; 0; 0; 0; ML003; 17722; 140548090627840; 1.3072029999999999; 6; 1.3004770000000001; 0; 61; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007036; 0; 0; 0; ML003; 17722; 140548082235136; 1.308198; 6; 1.3011619999999999; 0; 62; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007023; 0; 0; 0; ML003; 17722; 140548099020544; 1.309315; 6; 1.302292; 0; 63; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007841; 0; 0; 0; ML003; 17722; 140548073842432; 1.310851; 6; 1.30301; 0; 64; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007382; 0; 0; 0; ML003; 17722; 140548090627840; 1.314635; 6; 1.307253; 0; 65; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006654; 0; 0; 0; ML003; 17722; 140548082235136; 1.314905; 6; 1.3082510000000001; 0; 66; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007908; 0; 0; 0; ML003; 17722; 140548099020544; 1.3172950000000001; 6; 1.3093870000000001; 0; 67; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007312; 0; 0; 0; ML003; 17722; 140548073842432; 1.3182229999999999; 6; 1.3109109999999999; 0; 68; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006838; 0; 0; 0; ML003; 17722; 140548090627840; 1.321529; 6; 1.3146910000000001; 0; 69; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006839; 0; 0; 0; ML003; 17722; 140548082235136; 1.3217890000000001; 6; 1.3149500000000001; 0; 70; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007133; 0; 0; 0; ML003; 17722; 140548099020544; 1.3245039999999999; 6; 1.3173710000000001; 0; 71; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006741; 0; 0; 0; ML003; 17722; 140548073842432; 1.3250230000000001; 6; 1.318282; 0; 72; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006409; 0; 0; 0; ML003; 17722; 140548082235136; 1.3282480000000001; 6; 1.321839; 0; 74; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006788; 0; 0; 0; ML003; 17722; 140548090627840; 1.328373; 6; 1.321585; 0; 73; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006917; 0; 0; 0; ML003; 17722; 140548099020544; 1.331494; 6; 1.3245769999999999; 0; 75; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00689; 0; 0; 0; ML003; 17722; 140548073842432; 1.3319700000000001; 6; 1.32508; 0; 76; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006625; 0; 0; 0; ML003; 17722; 140548082235136; 1.334916; 6; 1.3282910000000001; 0; 77; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006997; 0; 0; 0; ML003; 17722; 140548090627840; 1.335423; 6; 1.3284260000000001; 0; 78; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007065; 0; 0; 0; ML003; 17722; 140548099020544; 1.3386309999999999; 6; 1.331566; 0; 79; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007821; 0; 0; 0; ML003; 17722; 140548073842432; 1.339847; 6; 1.3320259999999999; 0; 80; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006681; 0; 0; 0; ML003; 17722; 140548082235136; 1.3416440000000001; 6; 1.3349629999999999; 0; 81; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006941; 0; 0; 0; ML003; 17722; 140548090627840; 1.342417; 6; 1.3354760000000001; 0; 82; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006647; 0; 0; 0; ML003; 17722; 140548099020544; 1.3453299999999999; 6; 1.3386830000000001; 0; 83; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008058; 0; 0; 0; ML003; 17722; 140548073842432; 1.347977; 6; 1.3399190000000001; 0; 84; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007295; 0; 0; 0; ML003; 17722; 140548082235136; 1.3489910000000001; 6; 1.341696; 0; 85; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007737; 0; 0; 0; ML003; 17722; 140548090627840; 1.3502240000000001; 6; 1.342487; 0; 86; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007451; 0; 0; 0; ML003; 17722; 140548099020544; 1.352849; 6; 1.3453980000000001; 0; 87; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006835; 0; 0; 0; ML003; 17722; 140548073842432; 1.3549070000000001; 6; 1.3480719999999999; 0; 88; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00684; 0; 0; 0; ML003; 17722; 140548082235136; 1.355893; 6; 1.3490530000000001; 0; 89; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006666; 0; 0; 0; ML003; 17722; 140548090627840; 1.3569420000000001; 6; 1.350276; 0; 90; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006746; 0; 0; 0; ML003; 17722; 140548099020544; 1.3596509999999999; 6; 1.352905; 0; 91; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006827; 0; 0; 0; ML003; 17722; 140548073842432; 1.361812; 6; 1.3549850000000001; 0; 92; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006735; 0; 0; 0; ML003; 17722; 140548082235136; 1.3626799999999999; 6; 1.355945; 0; 93; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007087; 0; 0; 0; ML003; 17722; 140548090627840; 1.364087; 6; 1.357; 0; 94; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.0069; 0; 0; 0; ML003; 17722; 140548099020544; 1.3665959999999999; 6; 1.359696; 0; 95; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007235; 0; 0; 0; ML003; 17722; 140548073842432; 1.369122; 6; 1.3618870000000001; 0; 96; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007766; 0; 0; 0; ML003; 17722; 140548082235136; 1.3704970000000001; 6; 1.3627309999999999; 0; 97; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00691; 0; 0; 0; ML003; 17722; 140548090627840; 1.371054; 6; 1.364144; 0; 98; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007182; 0; 0; 0; ML003; 17722; 140548099020544; 1.373853; 6; 1.366671; 0; 99; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006786; 0; 0; 0; ML003; 17722; 140548073842432; 1.3759619999999999; 7; 1.3691759999999999; 0; 0; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006489; 0; 0; 0; ML003; 17722; 140548082235136; 1.3770359999999999; 7; 1.370547; 0; 1; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006883; 0; 0; 0; ML003; 17722; 140548090627840; 1.3779969999999999; 7; 1.3711139999999999; 0; 2; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007377; 0; 0; 0; ML003; 17722; 140548099020544; 1.3813; 7; 1.373923; 0; 3; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00659; 0; 0; 0; ML003; 17722; 140548082235136; 1.3836679999999999; 7; 1.377078; 0; 5; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008373; 0; 0; 0; ML003; 17722; 140548073842432; 1.3844069999999999; 7; 1.376034; 0; 4; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006795; 0; 0; 0; ML003; 17722; 140548090627840; 1.3848510000000001; 7; 1.3780559999999999; 0; 6; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006437; 0; 0; 0; ML003; 17722; 140548099020544; 1.3877870000000001; 7; 1.3813500000000001; 0; 7; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006698; 0; 0; 0; ML003; 17722; 140548082235136; 1.3904270000000001; 7; 1.383729; 0; 8; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006832; 0; 0; 0; ML003; 17722; 140548073842432; 1.391311; 7; 1.384479; 0; 9; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00693; 0; 0; 0; ML003; 17722; 140548090627840; 1.39184; 7; 1.3849100000000001; 0; 10; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006488; 0; 0; 0; ML003; 17722; 140548099020544; 1.394323; 7; 1.3878349999999999; 0; 11; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006698; 0; 0; 0; ML003; 17722; 140548082235136; 1.3971830000000001; 7; 1.390485; 0; 12; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006621; 0; 0; 0; ML003; 17722; 140548090627840; 1.398512; 7; 1.391891; 0; 14; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007387; 0; 0; 0; ML003; 17722; 140548073842432; 1.398766; 7; 1.3913789999999999; 0; 13; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00702; 0; 0; 0; ML003; 17722; 140548099020544; 1.4014150000000001; 7; 1.3943950000000001; 0; 15; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006944; 0; 0; 0; ML003; 17722; 140548082235136; 1.4041790000000001; 7; 1.397235; 0; 16; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006914; 0; 0; 0; ML003; 17722; 140548090627840; 1.40547; 7; 1.3985559999999999; 0; 17; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008334; 0; 0; 0; ML003; 17722; 140548073842432; 1.407157; 7; 1.3988229999999999; 0; 18; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006864; 0; 0; 0; ML003; 17722; 140548099020544; 1.4083639999999999; 7; 1.4015; 0; 19; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006763; 0; 0; 0; ML003; 17722; 140548082235136; 1.4109959999999999; 7; 1.4042330000000001; 0; 20; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007542; 0; 0; 0; ML003; 17722; 140548099020544; 1.4159759999999999; 7; 1.408434; 0; 23; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011223; 0; 0; 0; ML003; 17722; 140548090627840; 1.416763; 7; 1.40554; 0; 21; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006924; 0; 0; 0; ML003; 17722; 140548082235136; 1.417994; 7; 1.41107; 0; 24; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011519; 0; 0; 0; ML003; 17722; 140548073842432; 1.4187510000000001; 7; 1.407232; 0; 22; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007109; 0; 0; 0; ML003; 17722; 140548099020544; 1.4231819999999999; 7; 1.4160729999999999; 0; 25; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007096; 0; 0; 0; ML003; 17722; 140548082235136; 1.4251780000000001; 7; 1.4180820000000001; 0; 27; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011773; 0; 0; 0; ML003; 17722; 140548090627840; 1.4286509999999999; 7; 1.4168780000000001; 0; 26; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.010973; 0; 0; 0; ML003; 17722; 140548073842432; 1.429808; 7; 1.4188350000000001; 0; 28; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00689; 0; 0; 0; ML003; 17722; 140548099020544; 1.4301299999999999; 7; 1.4232400000000001; 0; 29; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006756; 0; 0; 0; ML003; 17722; 140548082235136; 1.4320090000000001; 7; 1.4252530000000001; 0; 30; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007904; 0; 0; 0; ML003; 17722; 140548099020544; 1.4381159999999999; 7; 1.430212; 0; 33; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006786; 0; 0; 0; ML003; 17722; 140548082235136; 1.4388510000000001; 7; 1.4320649999999999; 0; 34; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011469; 0; 0; 0; ML003; 17722; 140548090627840; 1.4402159999999999; 7; 1.428747; 0; 31; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011968; 0; 0; 0; ML003; 17722; 140548073842432; 1.441862; 7; 1.429894; 0; 32; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007051; 0; 0; 0; ML003; 17722; 140548082235136; 1.4459880000000001; 7; 1.4389369999999999; 0; 36; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.008089; 0; 0; 0; ML003; 17722; 140548099020544; 1.446315; 7; 1.438226; 0; 35; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011159; 0; 0; 0; ML003; 17722; 140548090627840; 1.451446; 7; 1.4402870000000001; 0; 37; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00677; 0; 0; 0; ML003; 17722; 140548099020544; 1.453155; 7; 1.446385; 0; 40; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011361; 0; 0; 0; ML003; 17722; 140548073842432; 1.453317; 7; 1.441956; 0; 38; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007422; 0; 0; 0; ML003; 17722; 140548082235136; 1.4534720000000001; 7; 1.4460500000000001; 0; 39; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006942; 0; 0; 0; ML003; 17722; 140548099020544; 1.4601770000000001; 7; 1.4532350000000001; 0; 42; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00677; 0; 0; 0; ML003; 17722; 140548082235136; 1.460331; 7; 1.4535610000000001; 0; 44; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011929; 0; 0; 0; ML003; 17722; 140548090627840; 1.4634739999999999; 7; 1.4515450000000001; 0; 41; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011232; 0; 0; 0; ML003; 17722; 140548073842432; 1.4647300000000001; 7; 1.453498; 0; 43; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007159; 0; 0; 0; ML003; 17722; 140548082235136; 1.4676400000000001; 7; 1.4604809999999999; 0; 46; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007778; 0; 0; 0; ML003; 17722; 140548099020544; 1.4680610000000001; 7; 1.460283; 0; 45; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006967; 0; 0; 0; ML003; 17722; 140548082235136; 1.474693; 7; 1.4677260000000001; 0; 49; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011267; 0; 0; 0; ML003; 17722; 140548090627840; 1.47481; 7; 1.463543; 0; 47; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00674; 0; 0; 0; ML003; 17722; 140548099020544; 1.4748730000000001; 7; 1.4681329999999999; 0; 50; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011353; 0; 0; 0; ML003; 17722; 140548073842432; 1.476154; 7; 1.464801; 0; 48; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00664; 0; 0; 0; ML003; 17722; 140548099020544; 1.481619; 7; 1.474979; 0; 52; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00717; 0; 0; 0; ML003; 17722; 140548082235136; 1.481919; 7; 1.4747490000000001; 0; 51; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011553; 0; 0; 0; ML003; 17722; 140548090627840; 1.4865539999999999; 7; 1.475001; 0; 53; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011491; 0; 0; 0; ML003; 17722; 140548073842432; 1.487717; 7; 1.476226; 0; 54; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006528; 0; 0; 0; ML003; 17722; 140548099020544; 1.4881960000000001; 7; 1.481668; 0; 55; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006725; 0; 0; 0; ML003; 17722; 140548082235136; 1.4886999999999999; 7; 1.481975; 0; 56; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006582; 0; 0; 0; ML003; 17722; 140548099020544; 1.49482; 7; 1.4882379999999999; 0; 59; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006755; 0; 0; 0; ML003; 17722; 140548082235136; 1.4955099999999999; 7; 1.4887550000000001; 0; 60; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011713; 0; 0; 0; ML003; 17722; 140548090627840; 1.498362; 7; 1.4866490000000001; 0; 57; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011267; 0; 0; 0; ML003; 17722; 140548073842432; 1.4990540000000001; 7; 1.487787; 0; 58; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00656; 0; 0; 0; ML003; 17722; 140548099020544; 1.501422; 7; 1.4948619999999999; 0; 61; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006956; 0; 0; 0; ML003; 17722; 140548082235136; 1.5025409999999999; 7; 1.4955849999999999; 0; 62; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006492; 0; 0; 0; ML003; 17722; 140548099020544; 1.5079819999999999; 7; 1.50149; 0; 65; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006859; 0; 0; 0; ML003; 17722; 140548082235136; 1.5094730000000001; 7; 1.5026139999999999; 0; 66; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011823; 0; 0; 0; ML003; 17722; 140548090627840; 1.510257; 7; 1.498434; 0; 63; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011442; 0; 0; 0; ML003; 17722; 140548073842432; 1.5105660000000001; 7; 1.4991239999999999; 0; 64; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007446; 0; 0; 0; ML003; 17722; 140548099020544; 1.5154799999999999; 7; 1.5080340000000001; 0; 67; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007071; 0; 0; 0; ML003; 17722; 140548082235136; 1.5166010000000001; 7; 1.50953; 0; 68; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011736; 0; 0; 0; ML003; 17722; 140548090627840; 1.522087; 7; 1.510351; 0; 69; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006717; 0; 0; 0; ML003; 17722; 140548099020544; 1.522249; 7; 1.5155320000000001; 0; 71; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011665; 0; 0; 0; ML003; 17722; 140548073842432; 1.5223249999999999; 7; 1.5106599999999999; 0; 70; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006819; 0; 0; 0; ML003; 17722; 140548082235136; 1.5235019999999999; 7; 1.516683; 0; 72; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006614; 0; 0; 0; ML003; 17722; 140548099020544; 1.529007; 7; 1.5223930000000001; 0; 74; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006861; 0; 0; 0; ML003; 17722; 140548082235136; 1.5304169999999999; 7; 1.5235559999999999; 0; 76; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011064; 0; 0; 0; ML003; 17722; 140548073842432; 1.533506; 7; 1.5224420000000001; 0; 75; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011872; 0; 0; 0; ML003; 17722; 140548090627840; 1.5340549999999999; 7; 1.5221830000000001; 0; 73; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007289; 0; 0; 0; ML003; 17722; 140548099020544; 1.5363500000000001; 7; 1.529061; 0; 77; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006896; 0; 0; 0; ML003; 17722; 140548082235136; 1.5374129999999999; 7; 1.5305169999999999; 0; 78; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006739; 0; 0; 0; ML003; 17722; 140548099020544; 1.543161; 7; 1.536422; 0; 81; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006827; 0; 0; 0; ML003; 17722; 140548082235136; 1.544297; 7; 1.5374699999999999; 0; 82; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011074; 0; 0; 0; ML003; 17722; 140548073842432; 1.544651; 7; 1.533577; 0; 79; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011221; 0; 0; 0; ML003; 17722; 140548090627840; 1.5453730000000001; 7; 1.534152; 0; 80; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007434; 0; 0; 0; ML003; 17722; 140548099020544; 1.550646; 7; 1.543212; 0; 83; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007584; 0; 0; 0; ML003; 17722; 140548082235136; 1.551939; 7; 1.5443549999999999; 0; 84; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011824; 0; 0; 0; ML003; 17722; 140548073842432; 1.556546; 7; 1.5447219999999999; 0; 85; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.011906; 0; 0; 0; ML003; 17722; 140548090627840; 1.5573710000000001; 7; 1.5454650000000001; 0; 86; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006652; 0; 0; 0; ML003; 17722; 140548099020544; 1.55741; 7; 1.5507580000000001; 0; 87; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007054; 0; 0; 0; ML003; 17722; 140548082235136; 1.55905; 7; 1.5519959999999999; 0; 88; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007014; 0; 0; 0; ML003; 17722; 140548073842432; 1.5636559999999999; 7; 1.5566420000000001; 0; 89; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007529; 0; 0; 0; ML003; 17722; 140548099020544; 1.565008; 7; 1.5574790000000001; 0; 91; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007967; 0; 0; 0; ML003; 17722; 140548090627840; 1.5654790000000001; 7; 1.557512; 0; 90; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00713; 0; 0; 0; ML003; 17722; 140548082235136; 1.566238; 7; 1.5591079999999999; 0; 92; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006574; 0; 0; 0; ML003; 17722; 140548073842432; 1.5702860000000001; 7; 1.563712; 0; 93; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006591; 0; 0; 0; ML003; 17722; 140548099020544; 1.571658; 7; 1.565067; 0; 94; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.00704; 0; 0; 0; ML003; 17722; 140548082235136; 1.5733299999999999; 7; 1.56629; 0; 96; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007818; 0; 0; 0; ML003; 17722; 140548090627840; 1.573369; 7; 1.5655509999999999; 0; 95; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006679; 0; 0; 0; ML003; 17722; 140548073842432; 1.577027; 7; 1.5703480000000001; 0; 97; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.006787; 0; 0; 0; ML003; 17722; 140548099020544; 1.5784940000000001; 7; 1.571707; 0; 98; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+0.007033; 0; 0; 0; ML003; 17722; 140548082235136; 1.580438; 7; 1.5734049999999999; 0; 99; manipulator; 1; ESTkConfigDefault; robowflex::OMPL::UR5OMPLPipelinePlanner; ; ur5; 0; 0; 
+.
