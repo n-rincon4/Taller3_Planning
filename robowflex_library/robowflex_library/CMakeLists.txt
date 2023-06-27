@@ -121,7 +121,6 @@ target_link_libraries(${LIBRARY_NAME} ${LIBRARIES})
 
 add_script(ur5_test)
 add_script(ur5_cylinder)
-add_script(ur5_benchmark)
 add_script(ur5_io)
 add_script(ur5_pool)
 add_script(ur5_visualization)
@@ -145,6 +144,9 @@ add_script(cob4_visualization)
 add_script(cob4_multi_target)
 add_script(ur5_frontal_grasp)
 add_script(ur5_longitud_frontal_grasp)
+add_script(ur5_ik_frontal_grasp)
+add_script(ur5_benchmark)
+add_script(ur5_frontal_grasp_hard)
 ##
 ## Tests
 ##

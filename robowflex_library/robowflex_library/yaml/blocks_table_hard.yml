@@ -1,0 +1,87 @@
+world:
+  collision_objects:
+    - id: table_right
+      meshes:
+        - resource: "package://robowflex_resources/objects/cafe_table.dae"
+          dimensions: [0.025, 0.025, 0.025]
+      mesh_poses:
+        - position: [0.3, 0.8, -0.08]
+          orientation: [0, 0, 0, 1]
+    - id: Cube1
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.07]
+      primitive_poses:
+        - position: [0.0, 0.6, 0.72]
+          orientation: [0, 0, 0, 1]      
+    - id: Cube2
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.07]
+      primitive_poses:
+        - position: [0.2, 0.6, 0.72]
+          orientation: [0, 0, 0, 1]
+    - id: Cube3
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.07]
+      primitive_poses:
+        - position: [0.4, 0.6, 0.72]
+          orientation: [0, 0, 0, 1]
+          
+    - id: Cube4
+      primitives:
+        - type: box
+          dimensions: [0.7, 0.35, 0.02]
+      primitive_poses:
+        - position: [0.27, 0.45, 0.95]
+          orientation: [0, 0, 0, 1]
+
+    - id: Cube5
+      primitives:
+        - type: box
+          dimensions: [0.8, 0.07, 0.02]
+      primitive_poses:
+        - position: [0.27, 0.6, 0.95]
+          orientation: [0, 0, 0, 1]
+          
+    - id: Cube6
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.46]
+      primitive_poses:
+        - position: [-0.1, 0.6, 1.11]
+          orientation: [0, 0, 0, 1]
+          
+    - id: Cube7
+      primitives:
+        - type: box
+          dimensions: [0.8, 0.07, 0.07]
+      primitive_poses:
+        - position: [0.27, 0.6, 1.35]
+          orientation: [0, 0, 0, 1]
+          
+    - id: Cube8
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.15, 0.7]
+      primitive_poses:
+        - position: [0.27, 0.2, 0.3]
+          orientation: [0, 0, 0, 1]  
+          
+    - id: Cube9
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.07, 0.46]
+      primitive_poses:
+        - position: [0.7, 0.6, 0.5]
+          orientation: [0, 0, 0, 1]
+          
+    - id: Cube10
+      primitives:
+        - type: box
+          dimensions: [0.07, 0.8, 0.1]
+      primitive_poses:
+        - position: [0.2, 0.25, 1.35]
+          orientation: [0, 0, 0, 1] 
+          
